@@ -1,0 +1,25 @@
+30.03.11
+- version 3.0.4
+- fixed a bug in writeSVG()
+- added optional hole-flag for gpf files to the documentation
+- added Utils.gpfInfo()
+- fixed IO.encodeBinary()
+
+29.09.10
+- fixed centerAroundOrigin()
+- updated documentation, merged with the 2.0.x branch
+- included PDF documentation in the dist packages
+
+20.09.10
+- version 3.0.3 - versions are now in sync with the 2.0 branch
+
+17.09.10
+- ported all accumulated changes from the 2.0 branch to 3.0, including:
+    - orientation algorithm
+    - sample()
+    - tileBSP()
+    - some fixed memory leaks
+- preparing for a 3.0.x release which will be in sync with the 2.0.x releases
+
+02.06.09
+- fork of the 3.0 branch to work with python-3.x
