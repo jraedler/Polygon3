@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-#       $Id: __init__.py 77 2010-09-17 11:28:40Z jraedler $  
 
 
 # import everything from cPolygon

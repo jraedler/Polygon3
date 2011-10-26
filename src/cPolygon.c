@@ -1,5 +1,3 @@
-/*      $Id: cPolygon.c 109 2011-03-30 09:07:43Z jraedler $   */
-
 #include <math.h>
 #include <float.h>
 #include <string.h>

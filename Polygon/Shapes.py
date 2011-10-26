@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-#       $Id: Shapes.py 77 2010-09-17 11:28:40Z jraedler $  
 
 from Polygon.cPolygon import Polygon
 from math import sin, cos, pi

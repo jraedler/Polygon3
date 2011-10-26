@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-#       $Id: IO.py 107 2011-02-08 13:29:11Z jraedler $  
 
 """
 This module provides functions for reading and writing Polygons in different

@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#       $Id: setup.py 109 2011-03-30 09:07:43Z jraedler $   
 
 # withNumPy enables some extensions:
 #  * faster adding of contours from NumPy arrays
@@ -81,7 +80,7 @@ args = {
     'maintainer'      : "Joerg Raedler",
     'maintainer_email': "jr@j-raedler.de",
     'url'             : "http://www.j-raedler.de/projects/polygon",
-    'download_url'    : "http://polygon.origo.ethz.ch/download",
+    'download_url'    : "https://github.com/jraedler/Polygon3/downloads",
     'classifiers'     : ['Development Status :: 5 - Production/Stable', 
         'Intended Audience :: Developers',
         'Intended Audience :: Science/Research', 

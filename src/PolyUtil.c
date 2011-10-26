@@ -1,4 +1,3 @@
-/*      $Id: PolyUtil.c 80 2010-09-17 11:33:25Z jraedler $    */
 #include "PolyUtil.h"
 #include <math.h>
 #include <string.h>
