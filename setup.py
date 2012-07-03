@@ -5,7 +5,7 @@
 #  * faster adding of contours from NumPy arrays
 #  * data style STYLE_NUMPY to get contours and TriStrips
 #    as NumPy arrays
-withNumPy=False
+withNumPy=True
 
 # if withNumPy is True, set the include path for numpy/arrayobject.h
 # the example is for python on Windows:
@@ -71,7 +71,7 @@ wish to use this software in commercial projects!
 
 args = { 
     'name'            : "Polygon",
-    'version'         : "3.0.4",
+    'version'         : "3.0.5",
     'description'     : "Polygon is a python package that handles polygonal shapes in 2D",
     'long_description': longdesc,
     'license'         : "LGPL for Polygon, other for gpc",

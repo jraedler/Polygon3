@@ -76,7 +76,7 @@ Operations on polygons:\n\
 #define INDEF INT_MAX
 
 #ifndef POLY_VERSION
-#define POLY_VERSION "3.0.4"
+#define POLY_VERSION "3.0.5"
 #endif
 
 #ifndef PyMODINIT_FUNC
@@ -348,12 +348,12 @@ static PyObject *Polygon_repr(PyObject *self) {
 }
 
 
-static int Polygon_len(PyObject *self) {
+static Py_ssize_t Polygon_len(PyObject *self) {
     return ((Polygon *)self)->gpc_p->num_contours;
 }
 
 
-static PyObject *Polygon_getitem(PyObject *self, int item) {
+static PyObject *Polygon_getitem(PyObject *self, Py_ssize_t item) {
     PyObject *R;
     gpc_vertex_list * vl = NULL;
     gpc_vertex *v;
@@ -391,7 +391,7 @@ static PyObject *Polygon_getitem(PyObject *self, int item) {
         } break;
 #ifdef WITH_NUMPY
         case STYLE_NUMPY: {
-            int dims[2] = {0, 2};
+            npy_intp dims[2] = {0, 2};
             PyArrayObject *a;
             dims[0] = imax; 
             R = PyArray_SimpleNew(2, dims, PyArray_DOUBLE);
@@ -1037,7 +1037,7 @@ static PyObject *Polygon_triStrip(Polygon *self) {
         } break;
 #ifdef WITH_NUMPY
         case STYLE_NUMPY: {
-            int dims[2] = {0, 2};
+            npy_intp dims[2] = {0, 2};
             R = PyTuple_New(t->num_strips);
             for (i=0; i < t->num_strips; i++) {
                 vl = t->strip + i;

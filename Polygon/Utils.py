@@ -389,5 +389,5 @@ def gpfInfo(fileName):
                 holes += int(f.readline())
         [ f.readline() for p in range(pp-x) ]
         points += pp
-
+    f.close()
     return contours, holes, points, withHoles

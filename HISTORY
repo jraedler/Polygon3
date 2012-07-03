@@ -1,3 +1,10 @@
+03.07.12
+- version 3.0.5
+- changed some data types to prevent warnings
+- fixed numpy interface
+- numpy support is switched on by default now
+- fixed warning in gpfInfo()
+
 30.03.11
 - version 3.0.4
 - fixed a bug in writeSVG()
