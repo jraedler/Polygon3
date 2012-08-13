@@ -4,18 +4,15 @@
 # withNumPy enables some extensions:
 #  * faster adding of contours from NumPy arrays
 #  * data style STYLE_NUMPY to get contours and TriStrips
-#    as NumPy arrays
+#    as numpy arrays
+# set this to False if you don't have numpy installed or you don't want to 
+# enable support for it,
 withNumPy=True
-
-# if withNumPy is True, set the include path for numpy/arrayobject.h
-# the example is for python on Windows:
-# numPyIncludePath='C:\\Python31\\Lib\\site-packages\\numpy\\core\\include'
-numPyIncludePath=''
 
 # defaultStyle may be used to set the default style to one of:
 #  * STYLE_TUPLE to get tuples of points
 #  * STYLE_LIST to get lists of points
-#  * STYLE_NUMPY to get points as NumPy array
+#  * STYLE_NUMPY to get points as numpy arrays
 #    withNumPy must be enabled for this!
 defaultStyle='STYLE_LIST'
 
@@ -29,17 +26,15 @@ inc = ['src']
 if withNumPy:
     try:
         import numpy
-        print("Using NumPy extension")
+        print("Using NumPy extension!")
         mac.append(('WITH_NUMPY', 1))
+        inc.append(numpy.get_include())
     except:
-        print("NumPy extension not found!")
+        print("NumPy extension not found - disabling support for it!")
 
 # alloca() needs malloc.h under Windows
 if platform == 'win32':
     mac.append(('SYSTEM_WIN32', 1))
-
-if withNumPy and numPyIncludePath:
-    inc.append(numPyIncludePath)
 
 longdesc = """THIS VERSION WORKS WITH PYTHON-3.x ONLY!
 
