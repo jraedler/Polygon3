@@ -1083,6 +1083,12 @@ static PyObject *Polygon_sample(Polygon *self, PyObject *args) {
     val3 = PyObject_CallObject(rng, NULL);
     Py_DECREF(rng);
 
+    if (PyErr_Occurred()) {
+        PyErr_PrintEx(1);
+        Polygon_Raise(PolyError, "rng raised an error");
+        goto cleanup;
+    }
+
     if ((! PyFloat_Check(val1)) || (! PyFloat_Check(val2)) || (! PyFloat_Check(val3))) {
          Polygon_Raise(PolyError,
                        "rng returned something other than a float");

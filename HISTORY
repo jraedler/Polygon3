@@ -1,3 +1,7 @@
+00.00.00
+- getting numpy include path automatically in setup.py
+- fixed https://github.com/jraedler/Polygon2/issues/2
+
 03.07.12
 - version 3.0.5
 - changed some data types to prevent warnings
