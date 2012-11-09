@@ -151,7 +151,8 @@ def reducePoints(cont, n):
     this module.
 
     :Arguments:
-        - contour: list of points
+        - cont: list of points
+        - n: number of points to keep
     :Returns:
         new list of points
     """
@@ -167,6 +168,75 @@ def reducePoints(cont, n):
     return [cont[i] for i in ind]
 
 
+def reducePointsDP(cont, tol): 
+    """
+    Remove points of the contour 'cont' using the Douglas-Peucker algorithm. The
+    value of tol sets the maximum allowed difference between the contours. This 
+    (slightly changed) code was written by Schuyler Erle and put into public
+    domain. It uses an iterative approach that may need some time to complete, 
+    but will give better results than reducePoints().
+
+    :Arguments:
+        - cont: list of points
+        - tol: allowed difference between original and new contour
+    :Returns:
+        new list of points
+    """
+    anchor  = 0
+    floater = len(cont) - 1
+    stack   = []
+    keep    = set()
+    stack.append((anchor, floater))  
+    while stack:
+        anchor, floater = stack.pop()
+        # initialize line segment
+        if cont[floater] != cont[anchor]:
+            anchorX = float(cont[floater][0] - cont[anchor][0])
+            anchorY = float(cont[floater][1] - cont[anchor][1])
+            seg_len = sqrt(anchorX ** 2 + anchorY ** 2)
+            # get the unit vector
+            anchorX /= seg_len
+            anchorY /= seg_len
+        else:
+            anchorX = anchorY = seg_len = 0.0
+        # inner loop:
+        max_dist = 0.0
+        farthest = anchor + 1
+        for i in range(anchor + 1, floater):
+            dist_to_seg = 0.0
+            # compare to anchor
+            vecX = float(cont[i][0] - cont[anchor][0])
+            vecY = float(cont[i][1] - cont[anchor][1])
+            seg_len = sqrt( vecX ** 2 + vecY ** 2 )
+            # dot product:
+            proj = vecX * anchorX + vecY * anchorY
+            if proj < 0.0:
+                dist_to_seg = seg_len
+            else: 
+                # compare to floater
+                vecX = float(cont[i][0] - cont[floater][0])
+                vecY = float(cont[i][1] - cont[floater][1])
+                seg_len = sqrt( vecX ** 2 + vecY ** 2 )
+                # dot product:
+                proj = vecX * (-anchorX) + vecY * (-anchorY)
+                if proj < 0.0:
+                    dist_to_seg = seg_len
+                else:  # calculate perpendicular distance to line (pythagorean theorem):
+                    dist_to_seg = sqrt(abs(seg_len ** 2 - proj ** 2))
+                if max_dist < dist_to_seg:
+                    max_dist = dist_to_seg
+                    farthest = i
+        if max_dist <= tol: # use line segment
+            keep.add(anchor)
+            keep.add(floater)
+        else:
+            stack.append((anchor, farthest))
+            stack.append((farthest, floater))
+    keep = list(keep)
+    keep.sort()
+    return [cont[i] for i in keep]
+    
+    
 __linVal = lambda p: (p[1][0]-p[0][0])*(p[2][1]-p[0][1])-(p[1][1]-p[0][1])*(p[2][0]-p[0][0])
 def prunePoints(poly):
     """

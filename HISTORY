@@ -1,3 +1,7 @@
+XX.YY.ZZZZ
+- added Utils.reducePointsDP() using the Douglas-Peucker algorithm
+- added example and documentation for Utils.reducePointsDP()
+
 03.07.12
 - version 3.0.5
 - changed some data types to prevent warnings

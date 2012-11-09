@@ -4,11 +4,12 @@
 from Polygon import *
 from Polygon.Shapes import Star, Circle, Rectangle, SierpinskiCarpet
 from Polygon.IO import *
-from Polygon.Utils import convexHull, tile, tileEqual, tileBSP, reducePoints, cloneGrid
+from Polygon.Utils import convexHull, tile, tileEqual, tileBSP, reducePoints, reducePointsDP, cloneGrid
 import random, math
 
 
 def operationsExample():
+    print('### Operations')
     # create a circle with a hole
     p1 = Circle(1.0) - Circle(0.5)
     # create a square
@@ -47,6 +48,7 @@ def operationsExample():
 
 
 def cookieExample():
+    print('### Cookies!')
     # construct a christmas cookie with the help of the shapes
     star   = Star(radius=2.0, center=(1.0, 3.0), beams=5, iradius=1.4)
     circle = Circle(radius=1.0, center=(1.0, 3.0), points=64)
@@ -83,6 +85,7 @@ def cookieExample():
     
 
 def reduceExample():
+    print('### Reduce points')
     # read Polygon from file
     p = Polygon('testpoly.gpf')
     # use ireland only, I know it's contour 0
@@ -107,7 +110,34 @@ def reduceExample():
         writePDF('ReducePoints.pdf', plist)
 
 
+def reduceExampleDP():
+    print('### Reduce points with DP')
+    # read Polygon from file
+    p = Polygon('testpoly.gpf')
+    # use ireland only, I know it's contour 0
+    pnew = Polygon(p[0])
+    # start tolerance
+    tol = 0.125
+    # get shift value to show many polygons in drawing
+    bb = pnew.boundingBox()
+    xs = 1.1 * (bb[1]-bb[0])
+    # list with polygons to plot
+    plist = [pnew]
+    print('Contour has %d points' % len(pnew[0]))
+    while tol < 10:
+        pnew = Polygon(reducePointsDP(pnew[0], tol))
+        print('Reduced contour with tolerance %f to %d points' % (tol, len(pnew[0])))
+        pnew.shift(xs, 0)
+        plist.append(pnew)
+        tol = tol*2
+    # draw the results
+    writeSVG('ReducePointsDP.svg', plist, height=400)
+    if hasPDFExport:
+        writePDF('ReducePointsDP.pdf', plist)
+
+
 def moonExample():
+    print('### Moon')
     # a high-resolution, softly flickering moon,
     # constructed by the difference of two stars ...
     moon = Star(radius=3, center=(1.0, 2.0), beams=140, iradius=2.90) \
@@ -121,6 +151,7 @@ def moonExample():
 
 
 def xmlExample():
+    print('### XML')
     cookie = Star(radius=2.0, center=(1.0, 3.0), beams=5, iradius=1.4)\
         - Circle(radius=1.0, center=(1.0, 3.0))
     writeXML('cookie.xml', (cookie, ), withHeader=True)
@@ -128,6 +159,7 @@ def xmlExample():
     
 
 def gnuplotExample():
+    print('### Gnuplot')
     cookie = Star(radius=2.0, center=(1.0, 3.0), beams=5, iradius=1.4)\
         - Circle(radius=1.0, center=(1.0, 3.0))
     writeGnuplot('cookie.gp', (cookie,))
@@ -135,6 +167,7 @@ def gnuplotExample():
 
 
 def gridExample():
+    print('### Grid')
     starGrid = cloneGrid(Star(beams=5), 0, 20, 20, 4, 4)
     starGrid.shift(-50, -50)
     cookie = Star(radius=30.0, beams=5, iradius=20.0) - Circle(radius=15.0)
@@ -145,6 +178,7 @@ def gridExample():
 
 
 def sierpinskiExample():
+    print('### Sierpinski')
     for l in range(7):
         s = SierpinskiCarpet(level=l)
         print("SIERPINSKI CARPET - Level: %2d - Contours: %7d - Area: %g" % (l, len(s), s.area()))
@@ -152,6 +186,7 @@ def sierpinskiExample():
 
 
 def tileBSPExample():
+    print('### Tile BSP')
     # read Polygon from file
     p = Polygon('testpoly.gpf')
     print("tileBSP() - may need some time...")
@@ -168,6 +203,7 @@ if __name__ == '__main__':
     operationsExample()
     cookieExample()
     reduceExample()
+    reduceExampleDP()
     gridExample()
     moonExample()
     xmlExample()

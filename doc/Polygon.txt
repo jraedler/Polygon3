@@ -713,10 +713,25 @@ produce self-intersecting contours which are not valid to process with
 this module.
 
 :Arguments:
-    - contour: list of points
+    - cont: list of points
+    - n: number of points to keep
 :Returns:
     new list of points
 
+reducePointsDP(cont, tol)
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Remove points of the contour 'cont' using the Douglas-Peucker algorithm. The
+value of tol sets the maximum allowed difference between the contours. This 
+(slightly changed) code was written by Schuyler Erle and put into public
+domain. It uses an iterative approach that may need some time to complete, but 
+will give better results than reducePoints().
+
+:Arguments:
+    - cont: list of points
+    - tol: allowed difference between original and new contour
+:Returns:
+    new list of points
+    
 cloneGrid(poly, con, xl, yl, xstep, ystep)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Create a single new polygon with contours that are made from contour con from 
