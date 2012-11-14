@@ -5,6 +5,7 @@
 - added example and documentation for Utils.reducePointsDP()
 - changed IO.writeGnuplotTriangles(), IO.writeXML() and Utils.convexHull() to 
   work with STYLE_NUMPY
+- added Utils.pointSet()
 
 
 03.07.12
