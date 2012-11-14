@@ -174,7 +174,7 @@ def writeGnuplotTriangles(ofile, polylist):
             j = 0
             for j in range(len(vl)-2):
                 f.write('%g %g \n %g %g \n %g %g \n %g %g\n\n' %
-                        tuple(vl[j]+vl[j+1]+vl[j+2]+vl[j]))
+                    (vl[j][0], vl[j][1], vl[j+1][0], vl[j+1][1], vl[j+2][0], vl[j+2][1], vl[j][0], vl[j][1]))
             f.write('\n')
     if cl: f.close()
     f.close()
@@ -268,7 +268,7 @@ def writeXML(ofile, polylist, withHeader=False):
             l.append('  <contour points="%d" isHole="%d" area="%g" xMin="%g" xMax="%g" yMin="%g" yMax="%g">' \
                 % ((len(c), p.isHole(i), p.area(i))+p.boundingBox(i)))
             for po in c:
-                l.append('    <p x="%g" y="%g"/>' % po)
+                l.append('    <p x="%g" y="%g"/>' % (po[0], po[1]))
             l.append('  </contour>')
         l.append('</polygon>\n')
         f.write('\n'.join(l))

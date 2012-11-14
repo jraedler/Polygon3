@@ -200,6 +200,7 @@ def tileBSPExample():
 
 
 if __name__ == '__main__':
+    setDataStyle(STYLE_NUMPY)
     operationsExample()
     cookieExample()
     reduceExample()

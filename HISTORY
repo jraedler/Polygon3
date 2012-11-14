@@ -3,6 +3,9 @@
 - fixed https://github.com/jraedler/Polygon2/issues/2
 - added Utils.reducePointsDP() using the Douglas-Peucker algorithm
 - added example and documentation for Utils.reducePointsDP()
+- changed IO.writeGnuplotTriangles(), IO.writeXML() and Utils.convexHull() to 
+  work with STYLE_NUMPY
+
 
 03.07.12
 - version 3.0.5

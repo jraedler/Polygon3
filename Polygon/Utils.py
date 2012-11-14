@@ -35,6 +35,23 @@ def pointList(poly, withHoles=1):
     return reduce(add, [list(c) for c in poly])
 
 
+def pointSet(poly, withHoles=1):
+    """
+    Returns a set of all points of p. Points are converted to tuples.
+
+    :Arguments:
+        - p: Polygon
+    :Returns:
+        set of points
+    """
+    if not withHoles:
+        poly = fillHoles(poly)
+    ps = set()
+    for c in poly:
+        ps.update(set(tuple(p) for p in c))
+    return ps
+
+
 __left = lambda p: (p[1][0]*p[2][1]+p[0][0]*p[1][1]+p[2][0]*p[0][1]-
                     p[1][0]*p[0][1]-p[2][0]*p[1][1]-p[0][0]*p[2][1] >= 0)
 def convexHull(poly):
@@ -46,7 +63,7 @@ def convexHull(poly):
     :Returns:
         new Polygon
     """
-    points = list(pointList(poly, 0))
+    points = list(pointSet(poly, 0))
     points.sort()
     u = [points[0], points[1]]
     for p in points[2:]:
@@ -190,7 +207,8 @@ def reducePointsDP(cont, tol):
     while stack:
         anchor, floater = stack.pop()
         # initialize line segment
-        if cont[floater] != cont[anchor]:
+        # if cont[floater] != cont[anchor]:
+        if cont[floater][0] != cont[anchor][0] or cont[floater][1] != cont[anchor][1]:
             anchorX = float(cont[floater][0] - cont[anchor][0])
             anchorY = float(cont[floater][1] - cont[anchor][1])
             seg_len = sqrt(anchorX ** 2 + anchorY ** 2)
