@@ -11,7 +11,7 @@
 
 #define POLY_AUTHOR \
 "Author:   Joerg Raedler, Berlin. joerg@j-raedler.de\n\
-Homepage: http://polygon.origo.ethz.ch/\n\n\
+Homepage: http://www.j-raedler.de/projects/polygon/\n\n\
 Polygon is based on gpc, which was developed by Alan Murta, the gpc homepage\n\
 is at: http://www.cs.man.ac.uk/~toby/alan/software/"
 
@@ -76,7 +76,7 @@ Operations on polygons:\n\
 #define INDEF INT_MAX
 
 #ifndef POLY_VERSION
-#define POLY_VERSION "3.0.5"
+#define POLY_VERSION "3.0.6"
 #endif
 
 #ifndef PyMODINIT_FUNC

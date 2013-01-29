@@ -1,1 +1,16 @@
-Please look at Polygon.txt or Polygon.pdf in the folder doc.
+Polygon is a python package that handles polygonal shapes in 2D. It contains 
+Python bindings for gpc, the excellent General Polygon Clipping Library by 
+Alan Murta and some extensions written in C and pure Python. With Polygon you 
+may handle complex polygonal shapes in Python in a very intuitive way. Polygons 
+are simple Python objects, clipping operations are bound to standard operators 
+like +, -, \|, & and ^. TriStrips can be constructed from Polygons with a 
+single statement. Functions to compute the area, center point, convex hull,
+point containment and much more are included. This package was already used to
+process shapes with more than one million points!
+
+Polygon3 works with Python 3.x, Polygon2 with Python 2.x.
+
+Homepage: http://www.j-raedler.de/projects/polygon/
+Development/Downloads: https://bitbucket.org/jraedler/polygon3
+
+For more information please look at Polygon.[txt,pdf] in the folder doc.
