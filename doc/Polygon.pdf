@@ -358,7 +358,7 @@ endobj
 % 'R24': class PDFInfo 
 24 0 obj
 << /Author ()
- /CreationDate (D:20130129161959-01'00')
+ /CreationDate (D:20130613110936-01'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -5281,7 +5281,7 @@ endobj
 % 'R98': class PDFStream 
 98 0 obj
 % page stream
-<< /Length 9145 >>
+<< /Length 9165 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -5532,7 +5532,7 @@ q
 1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional fill_color: sequence of colors \(3-tuples of floats: RGB\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional fill_color: sequence of colors \(3-tuples of integers 0...255: RGB\)) Tj T* ET
 Q
 Q
 q
@@ -5556,7 +5556,7 @@ q
 1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional fill_opacity: sequence of colors) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional fill_opacity: sequence of floats 0.0...1.0) Tj T* ET
 Q
 Q
 q
@@ -7725,30 +7725,30 @@ xref
 0000071785 00000 n
 0000081149 00000 n
 0000089908 00000 n
-0000099152 00000 n
-0000107873 00000 n
-0000117597 00000 n
-0000124535 00000 n
-0000124787 00000 n
-0000124866 00000 n
-0000124945 00000 n
-0000125024 00000 n
-0000125103 00000 n
-0000125182 00000 n
-0000125261 00000 n
-0000125340 00000 n
-0000125419 00000 n
-0000125498 00000 n
-0000125578 00000 n
-0000125658 00000 n
+0000099172 00000 n
+0000107893 00000 n
+0000117617 00000 n
+0000124555 00000 n
+0000124807 00000 n
+0000124886 00000 n
+0000124965 00000 n
+0000125044 00000 n
+0000125123 00000 n
+0000125202 00000 n
+0000125281 00000 n
+0000125360 00000 n
+0000125439 00000 n
+0000125518 00000 n
+0000125598 00000 n
+0000125678 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(^y\0260\242|\0237\034S\\\011t>R}) (^y\0260\242|\0237\034S\\\011t>R})] 
+ [(\2503\356\316\233m\244\371\021\266\300\262Y\035#\355) (\2503\356\316\233m\244\371\021\266\300\262Y\035#\355)] 
 
  /Info 24 0 R
  /Root 23 0 R
  /Size 115 >>
 startxref
-125707
+125727
 %%EOF
