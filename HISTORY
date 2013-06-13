@@ -1,7 +1,8 @@
 00.00.00
 - fixed some methods to work with instances of subclasses
+- fixed a bug in the SVG export (rgb), thanks to Diederik van Lierop
 
-29.01.12
+29.01.13
 - version 3.0.6
 - moved development from GitHub to bitbucket
 - renamed package from Polygon to Polygon3 to avoid conflicts with Polygon2

@@ -223,9 +223,9 @@ def writeSVG(ofile, polylist, width=None, height=None, fill_color=None,
     if height and not width:
         width = height / a
     npoly = len(pp)
-    fill_color   = __RingBuffer(fill_color   or ('red', 'green', 'blue', 'yellow'))
+    fill_color   = __RingBuffer(fill_color   or ((255,0,0), (0,255,0), (0,0,255), (255,255,0)))
     fill_opacity = __RingBuffer(fill_opacity or (1.0,))
-    stroke_color = __RingBuffer(stroke_color or ('black',))
+    stroke_color = __RingBuffer(stroke_color or ((0,0,0),))
     stroke_width = __RingBuffer(stroke_width or (1.0,))
     s = ['<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>',
          '<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">',
@@ -235,7 +235,7 @@ def writeSVG(ofile, polylist, width=None, height=None, fill_color=None,
         bb = bbs[i]
         p.warpToBox(width*(bb[0]-minx)/xdim, width*(bb[1]-minx)/xdim,
                     height*(bb[2]-miny)/ydim, height*(bb[3]-miny)/ydim)
-        subl = ['<path style="fill:%s;fill-opacity:%s;fill-rule:evenodd;stroke:%s;stroke-width:%s;" d="' %
+        subl = ['<path style="fill:rgb%s;fill-opacity:%s;fill-rule:evenodd;stroke:rgb%s;stroke-width:%s;" d="' %
                 (fill_color(), fill_opacity(), stroke_color(), stroke_width())]
         for c in p:
             subl.append('M %g, %g %s z ' % (c[0][0], c[0][1], ' '.join([("L %g, %g" % (a,b)) for a,b in c[1:]])))

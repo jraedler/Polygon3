@@ -573,8 +573,8 @@ stroke_width can be sequences of the corresponding SVG style attributes to use.
     - polylist: sequence of Polygons
     - optional width: float
     - optional height: height
-    - optional fill_color: sequence of colors (3-tuples of floats: RGB)
-    - optional fill_opacity: sequence of colors
+    - optional fill_color: sequence of colors (3-tuples of integers 0...255: RGB)
+    - optional fill_opacity: sequence of floats 0.0...1.0
     - optional stroke_color: sequence of colors
     - optional stroke_width: sequence of floats
 :Returns:
