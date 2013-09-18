@@ -358,7 +358,7 @@ endobj
 % 'R24': class PDFInfo 
 24 0 obj
 << /Author ()
- /CreationDate (D:20130613110936-01'00')
+ /CreationDate (D:20130918120752-01'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -935,7 +935,7 @@ endobj
 << /Dest [ 18 0 R
  /XYZ
  62.69291
- 411.0236
+ 345.0236
  0 ]
  /Next 73 0 R
  /Parent 66 0 R
@@ -947,7 +947,7 @@ endobj
 << /Dest [ 18 0 R
  /XYZ
  62.69291
- 276.0236
+ 210.0236
  0 ]
  /Next 74 0 R
  /Parent 66 0 R
@@ -959,7 +959,7 @@ endobj
 << /Dest [ 18 0 R
  /XYZ
  62.69291
- 189.0236
+ 123.0236
  0 ]
  /Parent 66 0 R
  /Prev 73 0 R
@@ -5281,7 +5281,7 @@ endobj
 % 'R98': class PDFStream 
 98 0 obj
 % page stream
-<< /Length 9165 >>
+<< /Length 10348 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -5398,31 +5398,31 @@ q
 1 0 0 1 62.69291 591.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.091751 Tw (Write a SVG representation of the Polygons in polylist, width and/or height will be adapted if not given.) Tj T* 0 Tw 1.455814 Tw (fill_color, fill_opacity, stroke_color and stroke_width can be sequences of the corresponding SVG style) Tj T* 0 Tw (attributes to use.) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.091751 Tw (Write a SVG representation of the Polygons in polylist, width and/or height will be adapted if not given.) Tj T* 0 Tw 1.455814 Tw (fill_color, fill_opacity, stroke_color and stroke_width can be sequences of the corresponding SVG style) Tj T* 0 Tw (attributes to use. Optional labels can be placed at the polygons.) Tj T* ET
 Q
 Q
 q
 1 0 0 1 62.69291 585.0236 cm
 Q
 q
-1 0 0 1 62.69291 438.0236 cm
+1 0 0 1 62.69291 372.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 6 135 cm
+1 0 0 1 6 201 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 16.92937 0 Td (Arguments:) Tj T* -16.92937 0 Td ET
 Q
 Q
 q
-1 0 0 1 91.03937 141 cm
+1 0 0 1 91.03937 207 cm
 Q
 q
-1 0 0 1 91.03937 141 cm
+1 0 0 1 91.03937 207 cm
 Q
 q
-1 0 0 1 91.03937 129 cm
+1 0 0 1 91.03937 195 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5443,10 +5443,10 @@ q
 Q
 Q
 q
-1 0 0 1 91.03937 123 cm
+1 0 0 1 91.03937 189 cm
 Q
 q
-1 0 0 1 91.03937 111 cm
+1 0 0 1 91.03937 177 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5467,10 +5467,10 @@ q
 Q
 Q
 q
-1 0 0 1 91.03937 105 cm
+1 0 0 1 91.03937 171 cm
 Q
 q
-1 0 0 1 91.03937 93 cm
+1 0 0 1 91.03937 159 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5491,10 +5491,10 @@ q
 Q
 Q
 q
-1 0 0 1 91.03937 87 cm
+1 0 0 1 91.03937 153 cm
 Q
 q
-1 0 0 1 91.03937 75 cm
+1 0 0 1 91.03937 141 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5515,10 +5515,10 @@ q
 Q
 Q
 q
-1 0 0 1 91.03937 69 cm
+1 0 0 1 91.03937 135 cm
 Q
 q
-1 0 0 1 91.03937 57 cm
+1 0 0 1 91.03937 123 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5532,17 +5532,17 @@ q
 1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional fill_color: sequence of colors \(3-tuples of integers 0...255: RGB\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional fill_color: sequence of colors \(3-tuples of integers [0,255]: RGB\)) Tj T* ET
 Q
 Q
 q
 Q
 Q
 q
-1 0 0 1 91.03937 51 cm
+1 0 0 1 91.03937 117 cm
 Q
 q
-1 0 0 1 91.03937 39 cm
+1 0 0 1 91.03937 105 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5556,17 +5556,17 @@ q
 1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional fill_opacity: sequence of floats 0.0...1.0) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional fill_opacity: sequence of colors) Tj T* ET
 Q
 Q
 q
 Q
 Q
 q
-1 0 0 1 91.03937 33 cm
+1 0 0 1 91.03937 99 cm
 Q
 q
-1 0 0 1 91.03937 21 cm
+1 0 0 1 91.03937 87 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5587,10 +5587,10 @@ q
 Q
 Q
 q
-1 0 0 1 91.03937 15 cm
+1 0 0 1 91.03937 81 cm
 Q
 q
-1 0 0 1 91.03937 3 cm
+1 0 0 1 91.03937 69 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5611,13 +5611,85 @@ q
 Q
 Q
 q
+1 0 0 1 91.03937 63 cm
+Q
+q
+1 0 0 1 91.03937 51 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional labels: sequence of strings \(with same length as polylist\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+Q
+q
+1 0 0 1 91.03937 33 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional labels_coords: sequence of x,y coordinates) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 27 cm
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .47549 Tw (optional labels_centered: if true, then the x,y coordinates specify the middle of) Tj T* 0 Tw (the text's bounding box) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
 1 0 0 1 91.03937 3 cm
 Q
 q
 Q
 Q
 q
-1 0 0 1 62.69291 423.0236 cm
+1 0 0 1 62.69291 357.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5638,23 +5710,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 396.0236 cm
+1 0 0 1 62.69291 330.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (writeXML\(ofile, polylist, withHeader=False\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 366.0236 cm
+1 0 0 1 62.69291 300.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .18683 Tw (Write a readable representation of the Polygons in polylist to a XML file. A simple header can be added to) Tj T* 0 Tw (make the file parsable.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 360.0236 cm
+1 0 0 1 62.69291 294.0236 cm
 Q
 q
-1 0 0 1 62.69291 303.0236 cm
+1 0 0 1 62.69291 237.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5746,7 +5818,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 288.0236 cm
+1 0 0 1 62.69291 222.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5767,23 +5839,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 261.0236 cm
+1 0 0 1 62.69291 195.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (readXML\(ifile\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 243.0236 cm
+1 0 0 1 62.69291 177.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Read a list of Polygons from a XML file which was written with writeXML\(\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 237.0236 cm
+1 0 0 1 62.69291 171.0236 cm
 Q
 q
-1 0 0 1 62.69291 216.0236 cm
+1 0 0 1 62.69291 150.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5827,7 +5899,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 201.0236 cm
+1 0 0 1 62.69291 135.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5848,19 +5920,19 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 174.0236 cm
+1 0 0 1 62.69291 108.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (writePDF\(ofile, polylist, pagesize=None, linewidth=0, fill_color=None\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 144.0236 cm
+1 0 0 1 62.69291 78.02362 cm
 q
 BT 1 0 0 1 0 14 Tm 1.217765 Tw 12 TL /F5 10 Tf 0 0 0 rg (This function is only available if the reportlab package is installed! ) Tj /F1 10 Tf (Write a the Polygons in polylist to a) Tj T* 0 Tw (PDF file.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 138.0236 cm
+1 0 0 1 62.69291 76.86614 cm
 Q
  
 endstream
@@ -7725,30 +7797,30 @@ xref
 0000071785 00000 n
 0000081149 00000 n
 0000089908 00000 n
-0000099172 00000 n
-0000107893 00000 n
-0000117617 00000 n
-0000124555 00000 n
-0000124807 00000 n
-0000124886 00000 n
-0000124965 00000 n
-0000125044 00000 n
-0000125123 00000 n
-0000125202 00000 n
-0000125281 00000 n
-0000125360 00000 n
-0000125439 00000 n
-0000125518 00000 n
-0000125598 00000 n
-0000125678 00000 n
+0000100356 00000 n
+0000109077 00000 n
+0000118801 00000 n
+0000125739 00000 n
+0000125991 00000 n
+0000126070 00000 n
+0000126149 00000 n
+0000126228 00000 n
+0000126307 00000 n
+0000126386 00000 n
+0000126465 00000 n
+0000126544 00000 n
+0000126623 00000 n
+0000126702 00000 n
+0000126782 00000 n
+0000126862 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\2503\356\316\233m\244\371\021\266\300\262Y\035#\355) (\2503\356\316\233m\244\371\021\266\300\262Y\035#\355)] 
+ [(\32195|\215\345\237\366\211\276\210_\025B\307{) (\32195|\215\345\237\366\211\276\210_\025B\307{)] 
 
  /Info 24 0 R
  /Root 23 0 R
  /Size 115 >>
 startxref
-125727
+126911
 %%EOF

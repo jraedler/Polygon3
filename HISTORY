@@ -1,6 +1,8 @@
 00.00.00
 - fixed some methods to work with instances of subclasses
 - fixed a bug in the SVG export (rgb), thanks to Diederik van Lierop
+- added optional labels to SVG export and changed default colors, thanks to 
+  Diederik van Lierop
 
 29.01.13
 - version 3.0.6
@@ -13,7 +15,6 @@
 - changed IO.writeGnuplotTriangles(), IO.writeXML() and Utils.convexHull() to 
   work with STYLE_NUMPY
 - added Utils.pointSet()
-
 
 03.07.12
 - version 3.0.5

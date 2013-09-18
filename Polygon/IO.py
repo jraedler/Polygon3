@@ -181,21 +181,26 @@ def writeGnuplotTriangles(ofile, polylist):
 
 
 def writeSVG(ofile, polylist, width=None, height=None, fill_color=None,
-                fill_opacity=None, stroke_color=None, stroke_width=None):
+                fill_opacity=None, stroke_color=None, stroke_width=None, 
+                labels=None, labels_coords=None, labels_centered=False):
     """
     Write a SVG representation of the Polygons in polylist, width and/or height 
     will be adapted if not given. fill_color, fill_opacity, stroke_color and 
     stroke_width can be sequences of the corresponding SVG style attributes to use.
+    Optional labels can be placed at the polygons.
 
     :Arguments:
         - ofile: see above
         - polylist: sequence of Polygons
         - optional width: float
         - optional height: height
-        - optional fill_color: sequence of colors (3-tuples of floats: RGB)
+        - optional fill_color: sequence of colors (3-tuples of integers [0,255]: RGB)
         - optional fill_opacity: sequence of colors
         - optional stroke_color: sequence of colors
         - optional stroke_width: sequence of floats
+        - optional labels: sequence of strings (with same length as polylist)
+        - optional labels_coords: sequence of x,y coordinates
+        - optional labels_centered: if true, then the x,y coordinates specify the middle of the text's bounding box
     :Returns:
         ofile object
     """
@@ -223,7 +228,22 @@ def writeSVG(ofile, polylist, width=None, height=None, fill_color=None,
     if height and not width:
         width = height / a
     npoly = len(pp)
-    fill_color   = __RingBuffer(fill_color   or ((255,0,0), (0,255,0), (0,0,255), (255,255,0)))
+    str_dy = ''
+    str_anchor = ''
+    if labels:
+        nlabels = len(labels)
+        if nlabels == 0:
+            labels = None
+        else:
+            if nlabels != npoly:
+                raise Error("The number of labels must either be zero, or equal to the number of polygons")
+            if labels_coords and len(labels_coords) != nlabels:
+                raise Error("The number of label coordinates must be equal to the number of labels")
+            if labels_centered:
+                str_dy = 'dy="0.3em" '
+                str_anchor = 'text-anchor:middle;text-align:center'
+    default_colors = ((27, 158, 119), (217, 95, 2), (117, 112, 179), (231, 41, 138), (102, 166, 30), (230, 171, 2), (166, 118, 29), (102, 102, 102))
+    fill_color   = __RingBuffer(fill_color   or default_colors)
     fill_opacity = __RingBuffer(fill_opacity or (1.0,))
     stroke_color = __RingBuffer(stroke_color or ((0,0,0),))
     stroke_width = __RingBuffer(stroke_width or (1.0,))
@@ -240,7 +260,21 @@ def writeSVG(ofile, polylist, width=None, height=None, fill_color=None,
         for c in p:
             subl.append('M %g, %g %s z ' % (c[0][0], c[0][1], ' '.join([("L %g, %g" % (a,b)) for a,b in c[1:]])))
         subl.append('"/>')
-        s.append(''.join(subl))
+        if labels:
+            if labels_coords:
+                coord_x = width*(labels_coords[i][0] - minx)/xdim
+                coord_y = height*(labels_coords[i][1]-miny)/ydim
+            else:            
+                center = p.center()
+                coord_x = center[0]
+                coord_y = center[1]
+            s.append('<g>') # Group polygon and label, to allow user to find out which label belongs to which group
+            s.append(''.join(subl))
+            label_svg = '<text x="{0}" y="{1}" {2}style="font-size:10px;fill:black;font-family:Sans;{3}">{4}</text>'.format(coord_x, coord_y, str_dy, str_anchor, labels[i])
+            s.append(label_svg)
+            s.append('</g>')
+        else:
+            s.append(''.join(subl))        
     s.append('</svg>')
     f.write('\n'.join(s))
     if cl: f.close()

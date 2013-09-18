@@ -567,16 +567,20 @@ writeSVG(ofile, polylist, ...)
 Write a SVG representation of the Polygons in polylist, width and/or height 
 will be adapted if not given. fill_color, fill_opacity, stroke_color and 
 stroke_width can be sequences of the corresponding SVG style attributes to use.
+Optional labels can be placed at the polygons.
 
 :Arguments:
     - ofile: see above
     - polylist: sequence of Polygons
     - optional width: float
     - optional height: height
-    - optional fill_color: sequence of colors (3-tuples of integers 0...255: RGB)
-    - optional fill_opacity: sequence of floats 0.0...1.0
+    - optional fill_color: sequence of colors (3-tuples of integers [0,255]: RGB)
+    - optional fill_opacity: sequence of colors
     - optional stroke_color: sequence of colors
     - optional stroke_width: sequence of floats
+    - optional labels: sequence of strings (with same length as polylist)
+    - optional labels_coords: sequence of x,y coordinates
+    - optional labels_centered: if true, then the x,y coordinates specify the middle of the text's bounding box
 :Returns:
     ofile object
 

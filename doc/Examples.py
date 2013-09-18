@@ -17,34 +17,40 @@ def operationsExample():
     # shift the square a little bit
     p2.shift(0.25, 0.35)
     plist = [p1, p2]
+    slist = ['p1', 'p2']
 
     # addition, the same as logical OR (p1 | p2)
     p = p1 + p2
     p.shift(2.5, 0.0)
     plist.append(p)
+    slist.append('p1 + p2 (OR)')
 
     # subtraction
     p = p1 - p2
     p.shift(5.0, 0.0)
     plist.append(p)
+    slist.append('p1 - p2')
 
     # subtraction
     p = p2 - p1
     p.shift(7.5, 0.0)
     plist.append(p)
+    slist.append('p2 - p1')
 
     # logical AND
     p = p2 & p1
     p.shift(10.0, 0.0)
     plist.append(p)
+    slist.append('p2 AND p1')
 
     # logical XOR
     p = p2 ^ p1
     p.shift(12.5, 0.0)
     plist.append(p)
+    slist.append('p2 XOR p1')
 
     # draw the results of the operations
-    writeSVG('Operations.svg', plist, width=800)
+    writeSVG('Operations.svg', plist, width=800, labels=slist, labels_centered=True)
 
 
 def cookieExample():
