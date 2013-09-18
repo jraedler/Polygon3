@@ -103,6 +103,7 @@ def reduceExample():
     xs = 1.1 * (bb[1]-bb[0])
     # list with polygons to plot
     plist = [pnew]
+    labels = ['%d points' % l]
     while l > 30:
         # reduce points to the half
         l = l//2
@@ -110,8 +111,9 @@ def reduceExample():
         pnew = Polygon(reducePoints(pnew[0], l))
         pnew.shift(xs, 0)
         plist.append(pnew)
+        labels.append('%d points' % l)
     # draw the results
-    writeSVG('ReducePoints.svg', plist, height=400)
+    writeSVG('ReducePoints.svg', plist, height=400, labels=labels)
     if hasPDFExport:
         writePDF('ReducePoints.pdf', plist)
 
@@ -129,15 +131,19 @@ def reduceExampleDP():
     xs = 1.1 * (bb[1]-bb[0])
     # list with polygons to plot
     plist = [pnew]
-    print('Contour has %d points' % len(pnew[0]))
+    l = len(pnew[0])
+    labels = ['%d points' % l]
+    print('Contour has %d points' % l)
     while tol < 10:
         pnew = Polygon(reducePointsDP(pnew[0], tol))
-        print('Reduced contour with tolerance %f to %d points' % (tol, len(pnew[0])))
+        l = len(pnew[0])
+        print('Reduced contour with tolerance %f to %d points' % (tol, l))
         pnew.shift(xs, 0)
         plist.append(pnew)
+        labels.append('%d points' % l)
         tol = tol*2
     # draw the results
-    writeSVG('ReducePointsDP.svg', plist, height=400)
+    writeSVG('ReducePointsDP.svg', plist, height=400, labels=labels)
     if hasPDFExport:
         writePDF('ReducePointsDP.pdf', plist)
 
