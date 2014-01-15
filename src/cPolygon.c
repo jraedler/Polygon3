@@ -313,6 +313,9 @@ static int Polygon_init(Polygon *self, PyObject *args, PyObject *kwds) {
             Polygon_Raise(ERR_ARG);
             return -1;
         }
+        if (PyErr_Occurred()) {
+            return -1;
+        }
         if (TMP) {
             Py_DECREF(TMP);
         }
