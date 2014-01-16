@@ -49,3 +49,67 @@
 
 2009-06-02
 - fork of the 3.0 branch to work with python-3.x
+
+2009-06-02
+- version 2.0 final
+- added SierpinskiCarpet to Shapes
+- deleted an old print statement in pdf export
+
+2009-03-09
+- version 2.0b2
+- updated documentation
+- works now with latest numpy
+- some bugfixes
+
+2009-02-15
+- version 2.0b1
+- lots of changes, most important are:
+    * Polygons can now be subclassed
+    * added a cloneContour method 
+    * moved modules to a package
+    * moved i/o and shapes to separate modules
+    * moved from numeric to numpy
+    * dropped some old stuff, requires a recent python interpreter now (>=2.5)
+- open bugs:
+    * numpy-test doesn't work yet
+
+2007-04-19
+- version 1.17
+- bugfix for Python 2.5 / PyMalloc (mixed PyMem_* and PyObject_*)
+
+2006-04-19
+- version 1.16
+- small change to work with Python 2.2 again (thanks to Tim Wegener),
+  unittest will not work with 2.2
+
+2005-08-12
+- version 1.15
+- fixed one bug introduced in 1.14
+
+2005-08-11
+- version 1.14
+- fixed a memory leak when not using Numeric (hopefully)
+
+2005-01-25
+- version 1.13
+- added dump/loadXML()
+- added dump/loadBinary()
+
+2004-12-21
+- version 1.12
+- switched to gpc 2.32
+
+2004-10-26
+- catched errors while opening files for reading or writing
+
+2004-10-18
+- added some tests
+
+2004-10-12
+- version 1.10
+- started the HISTORY file
+- improved SVG export a lot
+- added support for unittest
+- moved some tests from examples to PolygonTest.py
+- collected and improved other examples -> PolygonExamples.py
+- all examples now produce SVG instead of gnuplot files
