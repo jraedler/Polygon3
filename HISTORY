@@ -1,10 +1,11 @@
-00.00.00
+0000-00-00
 - fixed some methods to work with instances of subclasses
 - fixed a bug in the SVG export (rgb), thanks to Diederik van Lierop
 - added optional labels to SVG export and changed default colors, thanks to 
   Diederik van Lierop
+- fixed a bug with exceptions in the initialisation, thanks to Diederik van Lierop
 
-29.01.13
+2013-01-29
 - version 3.0.6
 - moved development from GitHub to bitbucket
 - renamed package from Polygon to Polygon3 to avoid conflicts with Polygon2
@@ -16,29 +17,29 @@
   work with STYLE_NUMPY
 - added Utils.pointSet()
 
-03.07.12
+2012-03-07
 - version 3.0.5
 - changed some data types to prevent warnings
 - fixed numpy interface
 - numpy support is switched on by default now
 - fixed warning in gpfInfo()
 
-30.03.11
+2011-03-30
 - version 3.0.4
 - fixed a bug in writeSVG()
 - added optional hole-flag for gpf files to the documentation
 - added Utils.gpfInfo()
 - fixed IO.encodeBinary()
 
-29.09.10
+2010-09-29
 - fixed centerAroundOrigin()
 - updated documentation, merged with the 2.0.x branch
 - included PDF documentation in the dist packages
 
-20.09.10
+2010-09-20
 - version 3.0.3 - versions are now in sync with the 2.0 branch
 
-17.09.10
+2010-09-07
 - ported all accumulated changes from the 2.0 branch to 3.0, including:
     - orientation algorithm
     - sample()
@@ -46,5 +47,5 @@
     - some fixed memory leaks
 - preparing for a 3.0.x release which will be in sync with the 2.0.x releases
 
-02.06.09
+2009-06-02
 - fork of the 3.0 branch to work with python-3.x
