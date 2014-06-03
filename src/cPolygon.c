@@ -68,6 +68,7 @@ Operations on polygons:\n\
 #endif
 
 #ifdef WITH_NUMPY
+#define NPY_NO_DEPRECATED_API NPY_1_8_API_VERSION
 #include <numpy/arrayobject.h>
 #endif
 
@@ -213,19 +214,20 @@ Add a contour (outline or hole).\n\
     None\n"
 static PyObject *Polygon_addContour(Polygon *self, PyObject *args) {
 #ifdef WITH_NUMPY
-    PyObject *a=NULL;
+    PyObject *o=NULL;
+    PyArrayObject *a=NULL;
     gpc_vertex_list *vl;
     int hole = 0;
-    if (! PyArg_ParseTuple(args, "O|i", &a, &hole))
+    if (! PyArg_ParseTuple(args, "O|i", &o, &hole))
         return Polygon_Raise(ERR_ARG);
-    if ((a = PyArray_ContiguousFromObject(a, PyArray_DOUBLE, 2, 2)) == NULL)
+    if ((a = (PyArrayObject *)PyArray_ContiguousFromObject(o, NPY_DOUBLE, 2, 2)) == NULL)
         return Polygon_Raise(ERR_ARG);
-    if (((PyArrayObject *)a)->nd != 2)            return Polygon_Raise(ERR_ARG);
-    if (((PyArrayObject *)a)->dimensions[1] != 2) return Polygon_Raise(ERR_ARG);
+    if (PyArray_NDIM(a) != 2) return Polygon_Raise(ERR_ARG);
+    if (PyArray_DIMS(a)[1] != 2) return Polygon_Raise(ERR_ARG);
     vl = PyMem_New(gpc_vertex_list, 1);
-    vl->num_vertices = ((PyArrayObject *)a)->dimensions[0];
+    vl->num_vertices = PyArray_DIMS(a)[0];
     vl->vertex = PyMem_New(gpc_vertex, vl->num_vertices);
-    memcpy((vl->vertex), (((PyArrayObject *)a)->data), 2*vl->num_vertices*sizeof(double));
+    memcpy((vl->vertex), PyArray_DATA(a), 2*vl->num_vertices*sizeof(double));
     Py_DECREF(a);
 #else
     PyObject *list=NULL, *flist, *point=NULL, *X, *Y;
@@ -395,11 +397,9 @@ static PyObject *Polygon_getitem(PyObject *self, Py_ssize_t item) {
 #ifdef WITH_NUMPY
         case STYLE_NUMPY: {
             npy_intp dims[2] = {0, 2};
-            PyArrayObject *a;
             dims[0] = imax; 
-            R = PyArray_SimpleNew(2, dims, PyArray_DOUBLE);
-            a = (PyArrayObject *)R;
-            memcpy(a->data, vl->vertex, sizeof(gpc_vertex)*vl->num_vertices);
+            R = PyArray_SimpleNew(2, dims, NPY_DOUBLE);
+            memcpy(PyArray_DATA((PyArrayObject *)R), vl->vertex, sizeof(gpc_vertex)*vl->num_vertices);
         } break;
 #endif /* WITH_NUMPY */
         default:
@@ -1045,8 +1045,8 @@ static PyObject *Polygon_triStrip(Polygon *self) {
             for (i=0; i < t->num_strips; i++) {
                 vl = t->strip + i;
                 dims[0] = vl->num_vertices;
-                TS = PyArray_SimpleNew(2, dims, PyArray_DOUBLE);
-                memcpy(((PyArrayObject *)TS)->data, vl->vertex, sizeof(gpc_vertex)*vl->num_vertices);
+                TS = PyArray_SimpleNew(2, dims, NPY_DOUBLE);
+                memcpy(PyArray_DATA((PyArrayObject *)TS), vl->vertex, sizeof(gpc_vertex)*vl->num_vertices);
                 PyTuple_SetItem(R, i, (PyObject *)TS);
             }
         } break;

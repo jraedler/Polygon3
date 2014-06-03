@@ -4,6 +4,10 @@
 - added optional labels to SVG export and changed default colors, thanks to 
   Diederik van Lierop
 - fixed a bug with exceptions in the initialisation, thanks to Diederik van Lierop
+- fixed a bug in gpc: replace on DBL_EPSILON with variable GPC_EPSILON, thanks to 
+  Peter Vavaroutsos
+- code changes to work with future versions of numpy 
+  (#define NPY_NO_DEPRECATED_API NPY_1_8_API_VERSION)
 
 2013-01-29
 - version 3.0.6
