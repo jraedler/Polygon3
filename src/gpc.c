@@ -675,7 +675,7 @@ static void add_st_edge(st_node **st, it_node **it, edge_node *edge,
 
     /* If new edge and ST edge don't cross */
     if ((edge->xt >= (*st)->xt) || (edge->dx == (*st)->dx) || 
-        (fabs(den) <= DBL_EPSILON))
+        (fabs(den) <= GPC_EPSILON))
     {
       /* No intersection - insert edge here (before the ST edge) */
       existing_node= *st;
