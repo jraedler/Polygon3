@@ -366,7 +366,7 @@ if hasPDFExport:
         can.setLineWidth(linewidth)
         pp = [Polygon(p) for p in polylist] # use clones only
         bbs = [p.boundingBox() for p in pp]
-        bbs2 = zip(*bbs)
+        bbs2 = list(zip(*bbs))
         minx = min(bbs2[0])
         maxx = max(bbs2[1])
         miny = min(bbs2[2])
