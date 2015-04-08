@@ -3,6 +3,13 @@
 
 #include "gpc.h"
 
+typedef struct _area_index {
+	float area;
+	int idx;
+} t_area_index;
+
+int    compare_structs(const void *, const void *);
+
 /* operations on polygons */
 gpc_polygon * poly_p_new(void);
 int    poly_p_clone(gpc_polygon *, gpc_polygon *);

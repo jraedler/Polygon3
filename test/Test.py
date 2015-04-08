@@ -99,15 +99,19 @@ class PolygonTestCase(unittest.TestCase):
         self.assertEqual(repr(p1), repr(p2))
 
     def testPointContainment(self):
-        p = Polygon.Polygon(((0, 0), (0, 3), (5, 3), (5, 0)))
-        p.addContour(((3, 1), (3, 2), (4, 2), (4, 1), (3, 1)), 1)
-        self.assertEqual(p.isInside(3.5, -0.5), 0)
-        self.assertEqual(p.isInside(3.5, 0.5), 1)
-        self.assertEqual(p.isInside(3.5, 1.5), 0)
-        self.assertEqual(p.isInside(3.5, 2.5), 1)
-        self.assertEqual(p.isInside(3.5, 3.5), 0)
-        self.assertEqual(p.isInside(3.5, 1.5, 0), 1)
-        self.assertEqual(p.isInside(3.5, 1.5, 1), 1)
+        p = Polygon.Polygon(((0, 0), (0, 5), (5, 5), (5, 0)))
+        p.addContour(((1, 1), (1, 4), (4, 4), (4, 1), (1, 1)), 1)
+        p.addContour(((2, 2), (2, 3), (3, 3), (3, 2), (2, 2)), 2)
+        self.assertEqual(p.isInside(2.5,-0.5), 0)
+        self.assertEqual(p.isInside(2.5, 0.5), 1)
+        self.assertEqual(p.isInside(2.5, 1.5), 0)
+        self.assertEqual(p.isInside(2.5, 2.5), 1)
+        self.assertEqual(p.isInside(2.5, 3.5), 0)
+        self.assertEqual(p.isInside(2.5, 4.5), 1)
+        self.assertEqual(p.isInside(2.5, 5.5), 0)
+        self.assertEqual(p.isInside(2.5, 2.5, 0), 1)
+        self.assertEqual(p.isInside(2.5, 2.5, 1), 1)
+        self.assertEqual(p.isInside(2.5, 2.5, 2), 1)
 
     def testCoverOverlap(self):
         p1 = Star(radius=1.0, beams=6)

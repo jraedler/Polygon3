@@ -7,6 +7,16 @@
 #include <malloc.h>
 #endif /*SYSTEM_WIN32*/
 
+int compare_structs (const void *a, const void *b) {
+	t_area_index *struct_a = (t_area_index *) a;
+	t_area_index *struct_b = (t_area_index *) b;
+	if (struct_a->area > struct_b->area)
+		return 1;
+	else if (struct_a->area == struct_b->area)
+		return 0;
+	else
+		return -1;
+}
 
 gpc_polygon * poly_p_new() {
   gpc_polygon *p = (gpc_polygon *)malloc(sizeof(gpc_polygon));
@@ -163,30 +173,28 @@ int poly_c_point_inside(gpc_vertex_list *vl, double x, double y){
 
 
 int poly_p_point_inside(gpc_polygon *p, double x, double y){
-  int i, inSolid = 0, inHole = 0;
-  for(i=0; i< p->num_contours; i++) {
-      /* loop over solid contours */
-      if (p->hole[i] == 0) {
-          inSolid = poly_c_point_inside(p->contour + i, x, y);
-          if (inSolid == -1)
-              return inSolid; /* error */
-          if (inSolid > 0)
-              break;
-      }
-  }
-  if (inSolid == 0) 
-      return 0;
-  for(i=0; i < p->num_contours; i++) {
-      /* loop over holes */
-      if (p->hole[i] == 1) {
-          inHole = poly_c_point_inside(p->contour + i, x, y);
-          if (inHole == -1)
-              return inHole; /* error */
-          if (inHole > 0) 
-              break;
-      }
-  }
-  return ((inHole > 0) ? 0 : 1);
+	int i;
+	t_area_index *array_areas;
+	array_areas = (t_area_index *) malloc(sizeof(t_area_index) * p->num_contours);
+	for(i=0; i< p->num_contours; i++) {
+		array_areas[i].area = poly_c_area(p->contour + i);
+		array_areas[i].idx = i;
+	}
+	qsort(array_areas, p->num_contours, sizeof(array_areas[0]), compare_structs);
+	int inSolid = 0;
+	for(i=0; i < p->num_contours; i++) {
+		/* loop area sorted contours */
+		inSolid = poly_c_point_inside(p->contour + array_areas[i].idx, x, y);
+		if (inSolid == -1)
+			break; /* error */
+		if (inSolid > 0){
+			if (p->hole[array_areas[i].idx] == 1)
+				inSolid = 0;
+			break;
+		}
+	}
+	free(array_areas);
+	return inSolid;
 }
 
 
