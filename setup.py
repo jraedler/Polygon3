@@ -66,7 +66,7 @@ wish to use this software in commercial projects!
 
 args = { 
     'name'            : "Polygon3",
-    'version'         : "3.0.7",
+    'version'         : "3.0.8",
     'description'     : "Polygon3 is a Python-3 package that handles polygonal shapes in 2D",
     'long_description': longdesc,
     'license'         : "LGPL for Polygon, other for gpc",
@@ -75,7 +75,6 @@ args = {
     'maintainer'      : "Joerg Raedler",
     'maintainer_email': "joerg@j-raedler.de",
     'url'             : "http://www.j-raedler.de/projects/polygon",
-    'download_url'    : "https://bitbucket.org/jraedler/polygon3/downloads",
     'classifiers'     : ['Development Status :: 5 - Production/Stable', 
         'Intended Audience :: Developers',
         'Intended Audience :: Science/Research', 
