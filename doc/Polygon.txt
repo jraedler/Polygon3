@@ -95,7 +95,7 @@ Main module: the Polygon Class
 ------------------------------
 The main module contains the following symbols:
 
-Polygon(\|arg):
+Polygon([arg]):
     the class for Polygon objects, see below
 setDataStyle(style):
     set data style, one of STYLE_TUPLE, STYLE_LIST or STYLE_NUMPY
@@ -149,7 +149,7 @@ Operations on Polygon Objects
     logical value is true, if there are any contours in p (contours may be 
     empty!)
 
-Polygon(\|arg)
+Polygon([arg])
 ~~~~~~~~~~~~~~
 Constructor: Create a new Polygon  object. Files must contain data in gpc 
 polygon format. If arg is another polygon, a copy is returned.
@@ -162,7 +162,7 @@ polygon format. If arg is another polygon, a copy is returned.
 :Returns:
     Polygon object
 
-p.addContour(c \|, hole=0)
+p.addContour(c [, hole=0])
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 Add a contour (outline or hole).
 
@@ -181,7 +181,7 @@ gives the contour with index i (the same as p[i])
 :Returns:
     a contour
     
-p.isHole(\|i)
+p.isHole([i])
 ~~~~~~~~~~~~~
 Returns the hole flag of a single contour (when called with index argument) or 
 a list  of all flags when called without arguments.
@@ -191,7 +191,7 @@ a list  of all flags when called without arguments.
 :Returns:
     bool or list of bools
 
-p.isSolid(\|i)
+p.isSolid([i])
 ~~~~~~~~~~~~~~
 Returns the inverted hole flag of a single contour (when called with index 
 argument) or a list  of all inverted flags when called without arguments.
@@ -201,7 +201,7 @@ argument) or a list  of all inverted flags when called without arguments.
 :Returns:
     bool or list of bools
 
-p.nPoints(\|i)
+p.nPoints([i])
 ~~~~~~~~~~~~~~
 Returns the number of points of one contour or of the whole polygon. Is much 
 faster than len(p[i]) or reduce(add, map(len, p))!
@@ -249,7 +249,7 @@ Polygon with the result.
 :Returns:
     None
 
-p.area(\|i)
+p.area([i])
 ~~~~~~~~~~~
 Calculates the area of one contour (when called with index) or of the whole 
 polygon. All values are positive! The polygon area is the sum of areas of all 
@@ -260,7 +260,7 @@ solid contours minus the sum of all areas of holes.
 :Returns:
     a float 
 
-p.center(\|i)
+p.center([i])
 ~~~~~~~~~~~~~
 Calculates the center of gravity of one contour (when called with index) or of 
 the whole Polygon. The center may  be outside the contours or inside holes. 
@@ -271,7 +271,7 @@ This is not the center of the bounding box!
 :Returns:
     a 2-tuple containing x and y float values
 
-p.orientation(\|i)
+p.orientation([i])
 ~~~~~~~~~~~~~~~~~~
 Calculates the orientation of one contour (when called with index) or of all 
 contours. There's no default orientation, holes are defined by the hole flag, 
@@ -283,7 +283,7 @@ not by the orientation!
     single integer or list of integers: 1 for ccw,  -1 for cw, 0 for invalid 
     contour. 
 
-p.isInside(x, y \|, i)
+p.isInside(x, y [, i])
 ~~~~~~~~~~~~~~~~~~~~~~
 Point containment test: returns logical containment value for a single 
 contour (when called with index) or of the whole Polygon. If point is exactly 
@@ -317,7 +317,7 @@ are tested for obvious cases and then an optional clipping is performed.
 :Returns:
     bool
 
-p.boundingBox(\|i)
+p.boundingBox([i])
 ~~~~~~~~~~~~~~~~~~
 Calculates the bounding box  of one contour (when called with index) or of the 
 whole polygon. In the latter case the data is cached and used for following 
@@ -330,7 +330,7 @@ when this method is called after the polygon has changed.
     tuple of four floats: xmin, xmax, ymin and ymax
 
 
-p.aspectRatio(\|i)
+p.aspectRatio([i])
 ~~~~~~~~~~~~~~~~~~
 Returns the aspect ratio (ymax-ymin) / (xmax-xmin) of the bounding box of one 
 contour (when called with index) or of the whole polygon.
@@ -340,8 +340,8 @@ contour (when called with index) or of the whole polygon.
 :Returns:
     float
 
-p.scale(xs, ys \|, xc, yc)
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+p.scale(xs, ys [, xc [, yc]])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Scales the polygon by multiplying with xs and ys around the center point. If 
 no center is given the center point of the bounding box is used, which will 
 not be changed by this operation.
@@ -364,8 +364,8 @@ Shifts the polygon by adding xs and ys.
 :Returns:
     None
 
-p.rotate(a \|, xc, yc)
-~~~~~~~~~~~~~~~~~~~~~~
+p.rotate(a [, xc [, yc]])
+~~~~~~~~~~~~~~~~~~~~~~~~~
 Rotates the polygon by angle a around center point in ccw direction. If no 
 center is given the center point of the bounding box is used.
 
@@ -389,7 +389,7 @@ x1, y0 and y1. Make sure: x0 < x1 and y0 < y1!
 :Returns:
     None
     
-p.flip(\|x)
+p.flip([x])
 ~~~~~~~~~~~
 Flips polygon in x direction. If a value for x is not given, the center of the 
 bounding box is used.
@@ -399,7 +399,7 @@ bounding box is used.
 :Returns:
     None
 
-p.flop(\|y)
+p.flop([y])
 ~~~~~~~~~~~
 Flips polygon in y direction. If a value for y is not given, the center of the 
 bounding box is used.
@@ -409,8 +409,8 @@ bounding box is used.
 :Returns:
     None
 
-p.cloneContour(i\|, xs, ys)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+p.cloneContour(i [, xs [, ys]])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Clones the contour i, returns index of clone, optionally shifts clone by xs 
 and ys.
 
@@ -454,9 +454,11 @@ Module Polygon.Shapes
 ---------------------
 This module contains functions that create polygons in different shapes.
 
-Circle(\|radius=1.0, center=(0.0,0.0), points=32)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Create a polygonal approximation of a circle.
+Circle([radius=1.0 [, center=(0.0,0.0) [, points=32]]])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create a polygonal approximation of a circle. This function can be used to 
+create any regular polygon where the parameter "points" gives the number of 
+sides.
 
 :Arguments:
     - optional radius: float
@@ -465,8 +467,8 @@ Create a polygonal approximation of a circle.
 :Returns:
     new Polygon
 
-Star(\|radius=1.0, center=(0.0,0.0), beams=16, iradius=0.5)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Star([radius=1.0 [, center=(0.0,0.0), [beams=16, [iradius=0.5]]]])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Create a star shape, iradius is the inner and radius the outer radius.
 
 :Arguments:
@@ -477,8 +479,8 @@ Create a star shape, iradius is the inner and radius the outer radius.
 :Returns:
     new Polygon
 
-Rectangle(\|xl= 1.0, yl=None)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Rectangle([xl=1.0 [, yl=None])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Create a rectangular shape. If yl is not set, a square is created.
 
 :Arguments:
@@ -487,8 +489,8 @@ Create a rectangular shape. If yl is not set, a square is created.
 :Returns:
     new Polygon
 
-SierpinksiCarpet(\|width= 1.0, level=5)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SierpinksiCarpet([width= 1.0 [, level=5]])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Create a sierpinski carpet.
 
 ### DO NOT USE LEVELS > 6 UNLESS YOU KNOW WHAT YOU DO! ###
@@ -562,8 +564,8 @@ gnuplot file, which may be plotted using the command
 :Returns:
     ofile object
 
-writeSVG(ofile, polylist, ...)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+writeSVG(ofile, polylist, [...])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Write a SVG representation of the Polygons in polylist, width and/or height 
 will be adapted if not given. fill_color, fill_opacity, stroke_color and 
 stroke_width can be sequences of the corresponding SVG style attributes to use.
@@ -575,7 +577,7 @@ Optional labels can be placed at the polygons.
     - optional width: float
     - optional height: height
     - optional fill_color: sequence of colors (3-tuples of integers [0,255]: RGB)
-    - optional fill_opacity: sequence of colors
+    - optional fill_opacity: sequence of floats [0,1]
     - optional stroke_color: sequence of colors
     - optional stroke_width: sequence of floats
     - optional labels: sequence of strings (with same length as polylist)
@@ -584,8 +586,8 @@ Optional labels can be placed at the polygons.
 :Returns:
     ofile object
 
-writeXML(ofile, polylist, withHeader=False)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+writeXML(ofile, polylist [, withHeader=False])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Write a readable representation of the Polygons in polylist to a XML file. 
 A simple header can be added to make the file parsable.
 
@@ -605,8 +607,8 @@ Read a list of Polygons from a XML file which was written with writeXML().
 :Returns:
     list of Polygon objects
 
-writePDF(ofile, polylist, pagesize=None, linewidth=0, fill_color=None)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+writePDF(ofile, polylist, [pagesize=None [, linewidth=0 [, fill_color=None]]])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 *This function is only available if the reportlab package is installed!*
 Write a the Polygons in polylist to a PDF file.
 
@@ -650,8 +652,8 @@ Returns a polygon which is the convex hull of p.
 :Returns:
     new Polygon
 
-tile(p, x=[], y=[] \|, bb=None)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tile(p [, x=[] [, y=[] [, bb=None]]])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Returns a list of polygons which are tiles of p splitted at the border values 
 specified in x and y. If you already know the bounding box of p, you may give 
 it as argument bb (4-tuple) to speed up the calculation.
@@ -664,8 +666,8 @@ it as argument bb (4-tuple) to speed up the calculation.
 :Returns:
     list of new Polygons
 
-tileEqual(p, nx=1, ny=1 \|, bb=None)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tileEqual(p [, nx=1 [, ny=1 [, bb=None]]])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 works like tile(), but splits into nx and ny parts.
 
 :Arguments:
@@ -774,3 +776,6 @@ Get information on a gpc/gpf file.
     - holes: number of holes (if contained)
     - points: total number of points
     - withHoles: file contains hole-flags
+
+.. footer::
+   ###Page###

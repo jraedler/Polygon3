@@ -1,1160 +1,299 @@
 %PDF-1.4
 %“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
-% 'BasicFonts': class PDFDictionary 
 1 0 obj
-% The standard fonts dictionary
-<< /F1 2 0 R
- /F2 3 0 R
- /F3 8 0 R
- /F4 10 0 R
- /F5 17 0 R >>
+<< /F1 2 0 R /F2 3 0 R /F3 8 0 R /F4 10 0 R /F5 18 0 R >>
 endobj
-% 'F1': class PDFType1Font 
 2 0 obj
-% Font Helvetica
-<< /BaseFont /Helvetica
- /Encoding /WinAnsiEncoding
- /Name /F1
- /Subtype /Type1
- /Type /Font >>
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
 endobj
-% 'F2': class PDFType1Font 
 3 0 obj
-% Font Helvetica-Bold
-<< /BaseFont /Helvetica-Bold
- /Encoding /WinAnsiEncoding
- /Name /F2
- /Subtype /Type1
- /Type /Font >>
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
 endobj
-% 'Annot.NUMBER1': class PDFDictionary 
 4 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (mailto:joerg@j-raedler.de) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 225.1523
- 576.7736
- 308.1023
- 588.7736 ]
- /Subtype /Link
- /Type /Annot >>
+<< /A << /S /URI /Type /Action /URI (mailto:joerg@j-raedler.de) >> /Border [ 0 0 0 ] /Rect [ 225.1523 576.0236 308.1023 588.0236 ] /Subtype /Link /Type /Annot >>
 endobj
-% 'Annot.NUMBER2': class PDFDictionary 
 5 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://www.j-raedler.de/projects/polygon) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 218.4223
- 498.7736
- 394.0423
- 510.7736 ]
- /Subtype /Link
- /Type /Annot >>
+<< /A << /S /URI /Type /Action /URI (http://www.j-raedler.de/projects/polygon) >> /Border [ 0 0 0 ] /Rect [ 218.4223 498.0236 394.0423 510.0236 ] /Subtype /Link /Type /Annot >>
 endobj
-% 'Annot.NUMBER3': class PDFDictionary 
 6 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://www.cs.man.ac.uk/~toby/alan/software/) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 198.4123
- 480.7736
- 399.3323
- 492.7736 ]
- /Subtype /Link
- /Type /Annot >>
+<< /A << /S /URI /Type /Action /URI (http://www.cs.man.ac.uk/~toby/alan/software/) >> /Border [ 0 0 0 ] /Rect [ 198.4123 480.0236 399.3323 492.0236 ] /Subtype /Link /Type /Annot >>
 endobj
-% 'Page1': class PDFPage 
 7 0 obj
-% Page dictionary
-<< /Annots [ 4 0 R
- 5 0 R
- 6 0 R ]
- /Contents 90 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 89 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
+<< /Annots [ 4 0 R 5 0 R 6 0 R ] /Contents 91 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 90 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
 endobj
-% 'F3': class PDFType1Font 
 8 0 obj
-% Font Courier
-<< /BaseFont /Courier
- /Encoding /WinAnsiEncoding
- /Name /F3
- /Subtype /Type1
- /Type /Font >>
+<< /BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
 endobj
-% 'Page2': class PDFPage 
 9 0 obj
-% Page dictionary
-<< /Contents 91 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 89 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
+<< /Contents 92 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 90 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
 endobj
-% 'F4': class PDFType1Font 
 10 0 obj
-% Font Helvetica-BoldOblique
-<< /BaseFont /Helvetica-BoldOblique
- /Encoding /WinAnsiEncoding
- /Name /F4
- /Subtype /Type1
- /Type /Font >>
+<< /BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font >>
 endobj
-% 'Page3': class PDFPage 
 11 0 obj
-% Page dictionary
-<< /Contents 92 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 89 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
+<< /Contents 93 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 90 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
 endobj
-% 'Page4': class PDFPage 
 12 0 obj
-% Page dictionary
-<< /Contents 93 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 89 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
+<< /Contents 94 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 90 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
 endobj
-% 'Page5': class PDFPage 
 13 0 obj
-% Page dictionary
-<< /Contents 94 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 89 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
+<< /Contents 95 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 90 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
 endobj
-% 'Page6': class PDFPage 
 14 0 obj
-% Page dictionary
-<< /Contents 95 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 89 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
+<< /Contents 96 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 90 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
 endobj
-% 'Page7': class PDFPage 
 15 0 obj
-% Page dictionary
-<< /Contents 96 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 89 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
+<< /Contents 97 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 90 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
 endobj
-% 'Page8': class PDFPage 
 16 0 obj
-% Page dictionary
-<< /Contents 97 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 89 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
+<< /Contents 98 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 90 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
 endobj
-% 'F5': class PDFType1Font 
 17 0 obj
-% Font Helvetica-Oblique
-<< /BaseFont /Helvetica-Oblique
- /Encoding /WinAnsiEncoding
- /Name /F5
- /Subtype /Type1
- /Type /Font >>
+<< /Contents 99 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 90 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
 endobj
-% 'Page9': class PDFPage 
 18 0 obj
-% Page dictionary
-<< /Contents 98 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 89 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
+<< /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font >>
 endobj
-% 'Page10': class PDFPage 
 19 0 obj
-% Page dictionary
-<< /Contents 99 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 89 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
+<< /Contents 100 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 90 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
 endobj
-% 'Page11': class PDFPage 
 20 0 obj
-% Page dictionary
-<< /Contents 100 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 89 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
+<< /Contents 101 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 90 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
 endobj
-% 'Annot.NUMBER4': class PDFDictionary 
 21 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://dr-josiah.blogspot.com/2010/08/binary-space-partitions-and-you.html) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 62.69291
- 519.7736
- 392.2729
- 531.7736 ]
- /Subtype /Link
- /Type /Annot >>
+<< /A << /S /URI /Type /Action /URI (http://dr-josiah.blogspot.com/2010/08/binary-space-partitions-and-you.html) >> /Border [ 0 0 0 ] /Rect [ 62.69291 213.0236 392.2729 225.0236 ] /Subtype /Link /Type /Annot >>
 endobj
-% 'Page12': class PDFPage 
 22 0 obj
-% Page dictionary
-<< /Annots [ 21 0 R ]
- /Contents 101 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 89 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
+<< /Annots [ 21 0 R ] /Contents 102 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 90 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
 endobj
-% 'R23': class PDFCatalog 
 23 0 obj
-% Document Root
-<< /Outlines 25 0 R
- /PageLabels 102 0 R
- /PageMode /UseNone
- /Pages 89 0 R
- /Type /Catalog >>
+<< /Contents 103 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 90 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
 endobj
-% 'R24': class PDFInfo 
 24 0 obj
-<< /Author ()
- /CreationDate (D:20130918120752-01'00')
- /Creator (\(unspecified\))
- /Keywords ()
- /Producer (ReportLab PDF Library - www.reportlab.com)
- /Subject (\(unspecified\))
- /Title (Polygon \205 a Python package for handling 2D-polygons) >>
+<< /Outlines 26 0 R /PageLabels 104 0 R /PageMode /UseNone /Pages 90 0 R /Type /Catalog >>
 endobj
-% 'R25': class PDFOutlines 
 25 0 obj
-<< /Count 70
- /First 26 0 R
- /Last 32 0 R
- /Type /Outlines >>
+<< /Author () /CreationDate (D:20160302150706-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+  /Title (Polygon \205 a Python package for handling 2D-polygons) >>
 endobj
-% 'Outline.0': class OutlineEntryObject 
 26 0 obj
-<< /Count 1
- /Dest [ 7 0 R
- /XYZ
- 62.69291
- 705.0236
- 0 ]
- /First 27 0 R
- /Last 27 0 R
- /Next 28 0 R
- /Parent 25 0 R
- /Title (Introduction) >>
+<< /Count 70 /First 27 0 R /Last 33 0 R /Type /Outlines >>
 endobj
-% 'Outline.64.0': class OutlineEntryObject 
 27 0 obj
-<< /Dest [ 7 0 R
- /XYZ
- 62.69291
- 312.0236
- 0 ]
- /Parent 26 0 R
- /Title (Platforms and Dependencies) >>
+<< /Count 1 /Dest [ 7 0 R /XYZ 62.69291 705.0236 0 ] /First 28 0 R /Last 28 0 R /Next 29 0 R /Parent 26 0 R 
+  /Title (Introduction) >>
 endobj
-% 'Outline.1': class OutlineEntryObject 
 28 0 obj
-<< /Count 2
- /Dest [ 7 0 R
- /XYZ
- 62.69291
- 210.0236
- 0 ]
- /First 29 0 R
- /Last 30 0 R
- /Next 31 0 R
- /Parent 25 0 R
- /Prev 26 0 R
- /Title (Installation) >>
+<< /Dest [ 7 0 R /XYZ 62.69291 312.0236 0 ] /Parent 27 0 R /Title (Platforms and Dependencies) >>
 endobj
-% 'Outline.65.0': class OutlineEntryObject 
 29 0 obj
-<< /Dest [ 7 0 R
- /XYZ
- 62.69291
- 177.0236
- 0 ]
- /Next 30 0 R
- /Parent 28 0 R
- /Title (Binaries) >>
+<< /Count 2 /Dest [ 7 0 R /XYZ 62.69291 210.0236 0 ] /First 30 0 R /Last 31 0 R /Next 32 0 R /Parent 26 0 R 
+  /Prev 27 0 R /Title (Installation) >>
 endobj
-% 'Outline.65.1': class OutlineEntryObject 
 30 0 obj
-<< /Dest [ 9 0 R
- /XYZ
- 62.69291
- 765.0236
- 0 ]
- /Parent 28 0 R
- /Prev 29 0 R
- /Title (From Source) >>
+<< /Dest [ 7 0 R /XYZ 62.69291 177.0236 0 ] /Next 31 0 R /Parent 29 0 R /Title (Binaries) >>
 endobj
-% 'Outline.2': class OutlineEntryObject 
 31 0 obj
-<< /Dest [ 9 0 R
- /XYZ
- 62.69291
- 651.0236
- 0 ]
- /Next 32 0 R
- /Parent 25 0 R
- /Prev 28 0 R
- /Title (Basic Example) >>
+<< /Dest [ 9 0 R /XYZ 62.69291 765.0236 0 ] /Parent 29 0 R /Prev 30 0 R /Title (From Source) >>
 endobj
-% 'Outline.3': class OutlineEntryObject 
 32 0 obj
-<< /Count 56
- /Dest [ 9 0 R
- /XYZ
- 62.69291
- 536.8236
- 0 ]
- /First 33 0 R
- /Last 75 0 R
- /Parent 25 0 R
- /Prev 31 0 R
- /Title (Contents and Usage) >>
+<< /Dest [ 9 0 R /XYZ 62.69291 651.0236 0 ] /Next 33 0 R /Parent 26 0 R /Prev 29 0 R /Title (Basic Example) >>
 endobj
-% 'Outline.66.0': class OutlineEntryObject 
 33 0 obj
-<< /Count 27
- /Dest [ 9 0 R
- /XYZ
- 62.69291
- 473.8236
- 0 ]
- /First 34 0 R
- /Last 60 0 R
- /Next 61 0 R
- /Parent 32 0 R
- /Title (Main module: the Polygon Class) >>
+<< /Count 56 /Dest [ 9 0 R /XYZ 62.69291 536.8236 0 ] /First 34 0 R /Last 76 0 R /Parent 26 0 R /Prev 32 0 R 
+  /Title (Contents and Usage) >>
 endobj
-% 'Outline.67.0': class OutlineEntryObject 
 34 0 obj
-<< /Dest [ 11 0 R
- /XYZ
- 62.69291
- 765.0236
- 0 ]
- /Next 35 0 R
- /Parent 33 0 R
- /Title (Operations on Polygon Objects) >>
+<< /Count 27 /Dest [ 9 0 R /XYZ 62.69291 473.8236 0 ] /First 35 0 R /Last 61 0 R /Next 62 0 R /Parent 33 0 R 
+  /Title (Main module: the Polygon Class) >>
 endobj
-% 'Outline.67.1': class OutlineEntryObject 
 35 0 obj
-<< /Dest [ 11 0 R
- /XYZ
- 62.69291
- 594.0236
- 0 ]
- /Next 36 0 R
- /Parent 33 0 R
- /Prev 34 0 R
- /Title (Polygon\(|arg\)) >>
+<< /Dest [ 11 0 R /XYZ 62.69291 729.0236 0 ] /Next 36 0 R /Parent 34 0 R /Title (Operations on Polygon Objects) >>
 endobj
-% 'Outline.67.2': class OutlineEntryObject 
 36 0 obj
-<< /Dest [ 11 0 R
- /XYZ
- 62.69291
- 441.0236
- 0 ]
- /Next 37 0 R
- /Parent 33 0 R
- /Prev 35 0 R
- /Title (p.addContour\(c |, hole=0\)) >>
+<< /Dest [ 11 0 R /XYZ 62.69291 558.0236 0 ] /Next 37 0 R /Parent 34 0 R /Prev 35 0 R /Title (Polygon\([arg]\)) >>
 endobj
-% 'Outline.67.3': class OutlineEntryObject 
 37 0 obj
-<< /Dest [ 11 0 R
- /XYZ
- 62.69291
- 336.0236
- 0 ]
- /Next 38 0 R
- /Parent 33 0 R
- /Prev 36 0 R
- /Title (p.contour\(i\)) >>
+<< /Dest [ 11 0 R /XYZ 62.69291 405.0236 0 ] /Next 38 0 R /Parent 34 0 R /Prev 36 0 R /Title (p.addContour\(c [, hole=0]\)) >>
 endobj
-% 'Outline.67.4': class OutlineEntryObject 
 38 0 obj
-<< /Dest [ 11 0 R
- /XYZ
- 62.69291
- 249.0236
- 0 ]
- /Next 39 0 R
- /Parent 33 0 R
- /Prev 37 0 R
- /Title (p.isHole\(|i\)) >>
+<< /Dest [ 11 0 R /XYZ 62.69291 300.0236 0 ] /Next 39 0 R /Parent 34 0 R /Prev 37 0 R /Title (p.contour\(i\)) >>
 endobj
-% 'Outline.67.5': class OutlineEntryObject 
 39 0 obj
-<< /Dest [ 11 0 R
- /XYZ
- 62.69291
- 150.0236
- 0 ]
- /Next 40 0 R
- /Parent 33 0 R
- /Prev 38 0 R
- /Title (p.isSolid\(|i\)) >>
+<< /Dest [ 11 0 R /XYZ 62.69291 213.0236 0 ] /Next 40 0 R /Parent 34 0 R /Prev 38 0 R /Title (p.isHole\([i]\)) >>
 endobj
-% 'Outline.67.6': class OutlineEntryObject 
 40 0 obj
-<< /Dest [ 12 0 R
- /XYZ
- 62.69291
- 738.0236
- 0 ]
- /Next 41 0 R
- /Parent 33 0 R
- /Prev 39 0 R
- /Title (p.nPoints\(|i\)) >>
+<< /Dest [ 12 0 R /XYZ 62.69291 765.0236 0 ] /Next 41 0 R /Parent 34 0 R /Prev 39 0 R /Title (p.isSolid\([i]\)) >>
 endobj
-% 'Outline.67.7': class OutlineEntryObject 
 41 0 obj
-<< /Dest [ 12 0 R
- /XYZ
- 62.69291
- 639.0236
- 0 ]
- /Next 42 0 R
- /Parent 33 0 R
- /Prev 40 0 R
- /Title (p.read\(file\)) >>
+<< /Dest [ 12 0 R /XYZ 62.69291 666.0236 0 ] /Next 42 0 R /Parent 34 0 R /Prev 40 0 R /Title (p.nPoints\([i]\)) >>
 endobj
-% 'Outline.67.8': class OutlineEntryObject 
 42 0 obj
-<< /Dest [ 12 0 R
- /XYZ
- 62.69291
- 510.0236
- 0 ]
- /Next 43 0 R
- /Parent 33 0 R
- /Prev 41 0 R
- /Title (p.write\(file\)) >>
+<< /Dest [ 12 0 R /XYZ 62.69291 567.0236 0 ] /Next 43 0 R /Parent 34 0 R /Prev 41 0 R /Title (p.read\(file\)) >>
 endobj
-% 'Outline.67.9': class OutlineEntryObject 
 43 0 obj
-<< /Dest [ 12 0 R
- /XYZ
- 62.69291
- 405.0236
- 0 ]
- /Next 44 0 R
- /Parent 33 0 R
- /Prev 42 0 R
- /Title (p.simplify\(\)) >>
+<< /Dest [ 12 0 R /XYZ 62.69291 438.0236 0 ] /Next 44 0 R /Parent 34 0 R /Prev 42 0 R /Title (p.write\(file\)) >>
 endobj
-% 'Outline.67.10': class OutlineEntryObject 
 44 0 obj
-<< /Dest [ 12 0 R
- /XYZ
- 62.69291
- 288.0236
- 0 ]
- /Next 45 0 R
- /Parent 33 0 R
- /Prev 43 0 R
- /Title (p.area\(|i\)) >>
+<< /Dest [ 12 0 R /XYZ 62.69291 333.0236 0 ] /Next 45 0 R /Parent 34 0 R /Prev 43 0 R /Title (p.simplify\(\)) >>
 endobj
-% 'Outline.67.11': class OutlineEntryObject 
 45 0 obj
-<< /Dest [ 12 0 R
- /XYZ
- 62.69291
- 189.0236
- 0 ]
- /Next 46 0 R
- /Parent 33 0 R
- /Prev 44 0 R
- /Title (p.center\(|i\)) >>
+<< /Dest [ 12 0 R /XYZ 62.69291 216.0236 0 ] /Next 46 0 R /Parent 34 0 R /Prev 44 0 R /Title (p.area\([i]\)) >>
 endobj
-% 'Outline.67.12': class OutlineEntryObject 
 46 0 obj
-<< /Dest [ 13 0 R
- /XYZ
- 62.69291
- 765.0236
- 0 ]
- /Next 47 0 R
- /Parent 33 0 R
- /Prev 45 0 R
- /Title (p.orientation\(|i\)) >>
+<< /Dest [ 13 0 R /XYZ 62.69291 765.0236 0 ] /Next 47 0 R /Parent 34 0 R /Prev 45 0 R /Title (p.center\([i]\)) >>
 endobj
-% 'Outline.67.13': class OutlineEntryObject 
 47 0 obj
-<< /Dest [ 13 0 R
- /XYZ
- 62.69291
- 666.0236
- 0 ]
- /Next 48 0 R
- /Parent 33 0 R
- /Prev 46 0 R
- /Title (p.isInside\(x, y |, i\)) >>
+<< /Dest [ 13 0 R /XYZ 62.69291 666.0236 0 ] /Next 48 0 R /Parent 34 0 R /Prev 46 0 R /Title (p.orientation\([i]\)) >>
 endobj
-% 'Outline.67.14': class OutlineEntryObject 
 48 0 obj
-<< /Dest [ 13 0 R
- /XYZ
- 62.69291
- 531.0236
- 0 ]
- /Next 49 0 R
- /Parent 33 0 R
- /Prev 47 0 R
- /Title (p.covers\(q\)) >>
+<< /Dest [ 13 0 R /XYZ 62.69291 567.0236 0 ] /Next 49 0 R /Parent 34 0 R /Prev 47 0 R /Title (p.isInside\(x, y [, i]\)) >>
 endobj
-% 'Outline.67.15': class OutlineEntryObject 
 49 0 obj
-<< /Dest [ 13 0 R
- /XYZ
- 62.69291
- 432.0236
- 0 ]
- /Next 50 0 R
- /Parent 33 0 R
- /Prev 48 0 R
- /Title (p.overlaps\(q\)) >>
+<< /Dest [ 13 0 R /XYZ 62.69291 432.0236 0 ] /Next 50 0 R /Parent 34 0 R /Prev 48 0 R /Title (p.covers\(q\)) >>
 endobj
-% 'Outline.67.16': class OutlineEntryObject 
 50 0 obj
-<< /Dest [ 13 0 R
- /XYZ
- 62.69291
- 333.0236
- 0 ]
- /Next 51 0 R
- /Parent 33 0 R
- /Prev 49 0 R
- /Title (p.boundingBox\(|i\)) >>
+<< /Dest [ 13 0 R /XYZ 62.69291 333.0236 0 ] /Next 51 0 R /Parent 34 0 R /Prev 49 0 R /Title (p.overlaps\(q\)) >>
 endobj
-% 'Outline.67.17': class OutlineEntryObject 
 51 0 obj
-<< /Dest [ 13 0 R
- /XYZ
- 62.69291
- 222.0236
- 0 ]
- /Next 52 0 R
- /Parent 33 0 R
- /Prev 50 0 R
- /Title (p.aspectRatio\(|i\)) >>
+<< /Dest [ 13 0 R /XYZ 62.69291 234.0236 0 ] /Next 52 0 R /Parent 34 0 R /Prev 50 0 R /Title (p.boundingBox\([i]\)) >>
 endobj
-% 'Outline.67.18': class OutlineEntryObject 
 52 0 obj
-<< /Dest [ 13 0 R
- /XYZ
- 62.69291
- 123.0236
- 0 ]
- /Next 53 0 R
- /Parent 33 0 R
- /Prev 51 0 R
- /Title (p.scale\(xs, ys |, xc, yc\)) >>
+<< /Dest [ 14 0 R /XYZ 62.69291 765.0236 0 ] /Next 53 0 R /Parent 34 0 R /Prev 51 0 R /Title (p.aspectRatio\([i]\)) >>
 endobj
-% 'Outline.67.19': class OutlineEntryObject 
 53 0 obj
-<< /Dest [ 14 0 R
- /XYZ
- 62.69291
- 663.0236
- 0 ]
- /Next 54 0 R
- /Parent 33 0 R
- /Prev 52 0 R
- /Title (p.shift\(xs, ys\)) >>
+<< /Dest [ 14 0 R /XYZ 62.69291 666.0236 0 ] /Next 54 0 R /Parent 34 0 R /Prev 52 0 R /Title (p.scale\(xs, ys [, xc [, yc]]\)) >>
 endobj
-% 'Outline.67.20': class OutlineEntryObject 
 54 0 obj
-<< /Dest [ 14 0 R
- /XYZ
- 62.69291
- 558.0236
- 0 ]
- /Next 55 0 R
- /Parent 33 0 R
- /Prev 53 0 R
- /Title (p.rotate\(a |, xc, yc\)) >>
+<< /Dest [ 14 0 R /XYZ 62.69291 513.0236 0 ] /Next 55 0 R /Parent 34 0 R /Prev 53 0 R /Title (p.shift\(xs, ys\)) >>
 endobj
-% 'Outline.67.21': class OutlineEntryObject 
 55 0 obj
-<< /Dest [ 14 0 R
- /XYZ
- 62.69291
- 423.0236
- 0 ]
- /Next 56 0 R
- /Parent 33 0 R
- /Prev 54 0 R
- /Title (p.warpToBox\(x0, x1, y0, y1\)) >>
+<< /Dest [ 14 0 R /XYZ 62.69291 408.0236 0 ] /Next 56 0 R /Parent 34 0 R /Prev 54 0 R /Title (p.rotate\(a [, xc [, yc]]\)) >>
 endobj
-% 'Outline.67.22': class OutlineEntryObject 
 56 0 obj
-<< /Dest [ 14 0 R
- /XYZ
- 62.69291
- 270.0236
- 0 ]
- /Next 57 0 R
- /Parent 33 0 R
- /Prev 55 0 R
- /Title (p.flip\(|x\)) >>
+<< /Dest [ 14 0 R /XYZ 62.69291 273.0236 0 ] /Next 57 0 R /Parent 34 0 R /Prev 55 0 R /Title (p.warpToBox\(x0, x1, y0, y1\)) >>
 endobj
-% 'Outline.67.23': class OutlineEntryObject 
 57 0 obj
-<< /Dest [ 14 0 R
- /XYZ
- 62.69291
- 183.0236
- 0 ]
- /Next 58 0 R
- /Parent 33 0 R
- /Prev 56 0 R
- /Title (p.flop\(|y\)) >>
+<< /Dest [ 15 0 R /XYZ 62.69291 765.0236 0 ] /Next 58 0 R /Parent 34 0 R /Prev 56 0 R /Title (p.flip\([x]\)) >>
 endobj
-% 'Outline.67.24': class OutlineEntryObject 
 58 0 obj
-<< /Dest [ 15 0 R
- /XYZ
- 62.69291
- 765.0236
- 0 ]
- /Next 59 0 R
- /Parent 33 0 R
- /Prev 57 0 R
- /Title (p.cloneContour\(i|, xs, ys\)) >>
+<< /Dest [ 15 0 R /XYZ 62.69291 678.0236 0 ] /Next 59 0 R /Parent 34 0 R /Prev 57 0 R /Title (p.flop\([y]\)) >>
 endobj
-% 'Outline.67.25': class OutlineEntryObject 
 59 0 obj
-<< /Dest [ 15 0 R
- /XYZ
- 62.69291
- 642.0236
- 0 ]
- /Next 60 0 R
- /Parent 33 0 R
- /Prev 58 0 R
- /Title (p.triStrip\(\)) >>
+<< /Dest [ 15 0 R /XYZ 62.69291 591.0236 0 ] /Next 60 0 R /Parent 34 0 R /Prev 58 0 R /Title (p.cloneContour\(i [, xs [, ys]]\)) >>
 endobj
-% 'Outline.67.26': class OutlineEntryObject 
 60 0 obj
-<< /Dest [ 15 0 R
- /XYZ
- 62.69291
- 495.0236
- 0 ]
- /Parent 33 0 R
- /Prev 59 0 R
- /Title (p.sample\(rng\)) >>
+<< /Dest [ 15 0 R /XYZ 62.69291 468.0236 0 ] /Next 61 0 R /Parent 34 0 R /Prev 59 0 R /Title (p.triStrip\(\)) >>
 endobj
-% 'Outline.66.1': class OutlineEntryObject 
 61 0 obj
-<< /Count 4
- /Dest [ 15 0 R
- /XYZ
- 62.69291
- 396.0236
- 0 ]
- /First 62 0 R
- /Last 65 0 R
- /Next 66 0 R
- /Parent 32 0 R
- /Prev 33 0 R
- /Title (Module Polygon.Shapes) >>
+<< /Dest [ 15 0 R /XYZ 62.69291 321.0236 0 ] /Parent 34 0 R /Prev 60 0 R /Title (p.sample\(rng\)) >>
 endobj
-% 'Outline.68.0': class OutlineEntryObject 
 62 0 obj
-<< /Dest [ 15 0 R
- /XYZ
- 62.69291
- 348.0236
- 0 ]
- /Next 63 0 R
- /Parent 61 0 R
- /Title (Circle\(|radius=1.0, center=\(0.0,0.0\), points=32\)) >>
+<< /Count 4 /Dest [ 15 0 R /XYZ 62.69291 222.0236 0 ] /First 63 0 R /Last 66 0 R /Next 67 0 R /Parent 33 0 R 
+  /Prev 34 0 R /Title (Module Polygon.Shapes) >>
 endobj
-% 'Outline.68.1': class OutlineEntryObject 
 63 0 obj
-<< /Dest [ 15 0 R
- /XYZ
- 62.69291
- 225.0236
- 0 ]
- /Next 64 0 R
- /Parent 61 0 R
- /Prev 62 0 R
- /Title (Star\(|radius=1.0, center=\(0.0,0.0\), beams=16, iradius=0.5\)) >>
+<< /Dest [ 15 0 R /XYZ 62.69291 174.0236 0 ] /Next 64 0 R /Parent 62 0 R /Title (Circle\([radius=1.0 [, center=\(0.0,0.0\) [, points=32]]]\)) >>
 endobj
-% 'Outline.68.2': class OutlineEntryObject 
 64 0 obj
-<< /Dest [ 16 0 R
- /XYZ
- 62.69291
- 765.0236
- 0 ]
- /Next 65 0 R
- /Parent 61 0 R
- /Prev 63 0 R
- /Title (Rectangle\(|xl= 1.0, yl=None\)) >>
+<< /Dest [ 16 0 R /XYZ 62.69291 681.0236 0 ] /Next 65 0 R /Parent 62 0 R /Prev 63 0 R /Title (Star\([radius=1.0 [, center=\(0.0,0.0\), [beams=16, [iradius=0.5]]]]\)) >>
 endobj
-% 'Outline.68.3': class OutlineEntryObject 
 65 0 obj
-<< /Dest [ 16 0 R
- /XYZ
- 62.69291
- 660.0236
- 0 ]
- /Parent 61 0 R
- /Prev 64 0 R
- /Title (SierpinksiCarpet\(|width= 1.0, level=5\)) >>
+<< /Dest [ 16 0 R /XYZ 62.69291 540.0236 0 ] /Next 66 0 R /Parent 62 0 R /Prev 64 0 R /Title (Rectangle\([xl=1.0 [, yl=None]\)) >>
 endobj
-% 'Outline.66.2': class OutlineEntryObject 
 66 0 obj
-<< /Count 8
- /Dest [ 16 0 R
- /XYZ
- 62.69291
- 537.0236
- 0 ]
- /First 67 0 R
- /Last 74 0 R
- /Next 75 0 R
- /Parent 32 0 R
- /Prev 61 0 R
- /Title (Module Polygon.IO) >>
+<< /Dest [ 16 0 R /XYZ 62.69291 435.0236 0 ] /Parent 62 0 R /Prev 65 0 R /Title (SierpinksiCarpet\([width= 1.0 [, level=5]]\)) >>
 endobj
-% 'Outline.69.0': class OutlineEntryObject 
 67 0 obj
-<< /Dest [ 16 0 R
- /XYZ
- 62.69291
- 489.0236
- 0 ]
- /Next 68 0 R
- /Parent 66 0 R
- /Title (encodeBinary\(p\)) >>
+<< /Count 8 /Dest [ 16 0 R /XYZ 62.69291 312.0236 0 ] /First 68 0 R /Last 75 0 R /Next 76 0 R /Parent 33 0 R 
+  /Prev 62 0 R /Title (Module Polygon.IO) >>
 endobj
-% 'Outline.69.1': class OutlineEntryObject 
 68 0 obj
-<< /Dest [ 16 0 R
- /XYZ
- 62.69291
- 378.0236
- 0 ]
- /Next 69 0 R
- /Parent 66 0 R
- /Prev 67 0 R
- /Title (decodeBinary\(s\)) >>
+<< /Dest [ 16 0 R /XYZ 62.69291 264.0236 0 ] /Next 69 0 R /Parent 67 0 R /Title (encodeBinary\(p\)) >>
 endobj
-% 'Outline.69.2': class OutlineEntryObject 
 69 0 obj
-<< /Dest [ 16 0 R
- /XYZ
- 62.69291
- 195.0236
- 0 ]
- /Next 70 0 R
- /Parent 66 0 R
- /Prev 68 0 R
- /Title (writeGnuplot\(ofile, polylist\)) >>
+<< /Dest [ 16 0 R /XYZ 62.69291 153.0236 0 ] /Next 70 0 R /Parent 67 0 R /Prev 68 0 R /Title (decodeBinary\(s\)) >>
 endobj
-% 'Outline.69.3': class OutlineEntryObject 
 70 0 obj
-<< /Dest [ 18 0 R
- /XYZ
- 62.69291
- 765.0236
- 0 ]
- /Next 71 0 R
- /Parent 66 0 R
- /Prev 69 0 R
- /Title (writeGnuplotTriangles\(ofile, polylist\)) >>
+<< /Dest [ 17 0 R /XYZ 62.69291 633.0236 0 ] /Next 71 0 R /Parent 67 0 R /Prev 69 0 R /Title (writeGnuplot\(ofile, polylist\)) >>
 endobj
-% 'Outline.69.4': class OutlineEntryObject 
 71 0 obj
-<< /Dest [ 18 0 R
- /XYZ
- 62.69291
- 648.0236
- 0 ]
- /Next 72 0 R
- /Parent 66 0 R
- /Prev 70 0 R
- /Title (writeSVG\(ofile, polylist, ...\)) >>
+<< /Dest [ 17 0 R /XYZ 62.69291 516.0236 0 ] /Next 72 0 R /Parent 67 0 R /Prev 70 0 R /Title (writeGnuplotTriangles\(ofile, polylist\)) >>
 endobj
-% 'Outline.69.5': class OutlineEntryObject 
 72 0 obj
-<< /Dest [ 18 0 R
- /XYZ
- 62.69291
- 345.0236
- 0 ]
- /Next 73 0 R
- /Parent 66 0 R
- /Prev 71 0 R
- /Title (writeXML\(ofile, polylist, withHeader=False\)) >>
+<< /Dest [ 17 0 R /XYZ 62.69291 399.0236 0 ] /Next 73 0 R /Parent 67 0 R /Prev 71 0 R /Title (writeSVG\(ofile, polylist, [...]\)) >>
 endobj
-% 'Outline.69.6': class OutlineEntryObject 
 73 0 obj
-<< /Dest [ 18 0 R
- /XYZ
- 62.69291
- 210.0236
- 0 ]
- /Next 74 0 R
- /Parent 66 0 R
- /Prev 72 0 R
- /Title (readXML\(ifile\)) >>
+<< /Dest [ 19 0 R /XYZ 62.69291 765.0236 0 ] /Next 74 0 R /Parent 67 0 R /Prev 72 0 R /Title (writeXML\(ofile, polylist [, withHeader=False]\)) >>
 endobj
-% 'Outline.69.7': class OutlineEntryObject 
 74 0 obj
-<< /Dest [ 18 0 R
- /XYZ
- 62.69291
- 123.0236
- 0 ]
- /Parent 66 0 R
- /Prev 73 0 R
- /Title (writePDF\(ofile, polylist, pagesize=None, linewidth=0, fill_color=None\)) >>
+<< /Dest [ 19 0 R /XYZ 62.69291 630.0236 0 ] /Next 75 0 R /Parent 67 0 R /Prev 73 0 R /Title (readXML\(ifile\)) >>
 endobj
-% 'Outline.66.3': class OutlineEntryObject 
 75 0 obj
-<< /Count 13
- /Dest [ 19 0 R
- /XYZ
- 62.69291
- 645.0236
- 0 ]
- /First 76 0 R
- /Last 88 0 R
- /Parent 32 0 R
- /Prev 66 0 R
- /Title (Module Polygon.Utils) >>
+<< /Dest [ 19 0 R /XYZ 62.69291 543.0236 0 ] /Parent 67 0 R /Prev 74 0 R /Title (writePDF\(ofile, polylist, [pagesize=None [, linewidth=0 [, fill_color=None]]]\)) >>
 endobj
-% 'Outline.70.0': class OutlineEntryObject 
 76 0 obj
-<< /Dest [ 19 0 R
- /XYZ
- 62.69291
- 597.0236
- 0 ]
- /Next 77 0 R
- /Parent 75 0 R
- /Title (fillHoles\(p\)) >>
+<< /Count 13 /Dest [ 19 0 R /XYZ 62.69291 372.0236 0 ] /First 77 0 R /Last 89 0 R /Parent 33 0 R /Prev 67 0 R 
+  /Title (Module Polygon.Utils) >>
 endobj
-% 'Outline.70.1': class OutlineEntryObject 
 77 0 obj
-<< /Dest [ 19 0 R
- /XYZ
- 62.69291
- 510.0236
- 0 ]
- /Next 78 0 R
- /Parent 75 0 R
- /Prev 76 0 R
- /Title (pointList\(p\)) >>
+<< /Dest [ 19 0 R /XYZ 62.69291 324.0236 0 ] /Next 78 0 R /Parent 76 0 R /Title (fillHoles\(p\)) >>
 endobj
-% 'Outline.70.2': class OutlineEntryObject 
 78 0 obj
-<< /Dest [ 19 0 R
- /XYZ
- 62.69291
- 423.0236
- 0 ]
- /Next 79 0 R
- /Parent 75 0 R
- /Prev 77 0 R
- /Title (convexHull\(p\)) >>
+<< /Dest [ 19 0 R /XYZ 62.69291 237.0236 0 ] /Next 79 0 R /Parent 76 0 R /Prev 77 0 R /Title (pointList\(p\)) >>
 endobj
-% 'Outline.70.3': class OutlineEntryObject 
 79 0 obj
-<< /Dest [ 19 0 R
- /XYZ
- 62.69291
- 336.0236
- 0 ]
- /Next 80 0 R
- /Parent 75 0 R
- /Prev 78 0 R
- /Title (tile\(p, x=[], y=[] |, bb=None\)) >>
+<< /Dest [ 19 0 R /XYZ 62.69291 150.0236 0 ] /Next 80 0 R /Parent 76 0 R /Prev 78 0 R /Title (convexHull\(p\)) >>
 endobj
-% 'Outline.70.4': class OutlineEntryObject 
 80 0 obj
-<< /Dest [ 19 0 R
- /XYZ
- 62.69291
- 183.0236
- 0 ]
- /Next 81 0 R
- /Parent 75 0 R
- /Prev 79 0 R
- /Title (tileEqual\(p, nx=1, ny=1 |, bb=None\)) >>
+<< /Dest [ 20 0 R /XYZ 62.69291 738.0236 0 ] /Next 81 0 R /Parent 76 0 R /Prev 79 0 R /Title (tile\(p [, x=[] [, y=[] [, bb=None]]]\)) >>
 endobj
-% 'Outline.70.5': class OutlineEntryObject 
 81 0 obj
-<< /Dest [ 20 0 R
- /XYZ
- 62.69291
- 663.0236
- 0 ]
- /Next 82 0 R
- /Parent 75 0 R
- /Prev 80 0 R
- /Title (warpToOrigin\(p\)) >>
+<< /Dest [ 20 0 R /XYZ 62.69291 585.0236 0 ] /Next 82 0 R /Parent 76 0 R /Prev 80 0 R /Title (tileEqual\(p [, nx=1 [, ny=1 [, bb=None]]]\)) >>
 endobj
-% 'Outline.70.6': class OutlineEntryObject 
 82 0 obj
-<< /Dest [ 20 0 R
- /XYZ
- 62.69291
- 576.0236
- 0 ]
- /Next 83 0 R
- /Parent 75 0 R
- /Prev 81 0 R
- /Title (centerAroundOrigin\(p\)) >>
+<< /Dest [ 20 0 R /XYZ 62.69291 444.0236 0 ] /Next 83 0 R /Parent 76 0 R /Prev 81 0 R /Title (warpToOrigin\(p\)) >>
 endobj
-% 'Outline.70.7': class OutlineEntryObject 
 83 0 obj
-<< /Dest [ 20 0 R
- /XYZ
- 62.69291
- 489.0236
- 0 ]
- /Next 84 0 R
- /Parent 75 0 R
- /Prev 82 0 R
- /Title (prunePoints\(p\)) >>
+<< /Dest [ 20 0 R /XYZ 62.69291 357.0236 0 ] /Next 84 0 R /Parent 76 0 R /Prev 82 0 R /Title (centerAroundOrigin\(p\)) >>
 endobj
-% 'Outline.70.8': class OutlineEntryObject 
 84 0 obj
-<< /Dest [ 20 0 R
- /XYZ
- 62.69291
- 390.0236
- 0 ]
- /Next 85 0 R
- /Parent 75 0 R
- /Prev 83 0 R
- /Title (reducePoints\(cont, n\)) >>
+<< /Dest [ 20 0 R /XYZ 62.69291 270.0236 0 ] /Next 85 0 R /Parent 76 0 R /Prev 83 0 R /Title (prunePoints\(p\)) >>
 endobj
-% 'Outline.70.9': class OutlineEntryObject 
 85 0 obj
-<< /Dest [ 20 0 R
- /XYZ
- 62.69291
- 225.0236
- 0 ]
- /Next 86 0 R
- /Parent 75 0 R
- /Prev 84 0 R
- /Title (reducePointsDP\(cont, tol\)) >>
+<< /Dest [ 22 0 R /XYZ 62.69291 765.0236 0 ] /Next 86 0 R /Parent 76 0 R /Prev 84 0 R /Title (reducePoints\(cont, n\)) >>
 endobj
-% 'Outline.70.10': class OutlineEntryObject 
 86 0 obj
-<< /Dest [ 22 0 R
- /XYZ
- 62.69291
- 765.0236
- 0 ]
- /Next 87 0 R
- /Parent 75 0 R
- /Prev 85 0 R
- /Title (cloneGrid\(poly, con, xl, yl, xstep, ystep\)) >>
+<< /Dest [ 22 0 R /XYZ 62.69291 600.0236 0 ] /Next 87 0 R /Parent 76 0 R /Prev 85 0 R /Title (reducePointsDP\(cont, tol\)) >>
 endobj
-% 'Outline.70.11': class OutlineEntryObject 
 87 0 obj
-<< /Dest [ 22 0 R
- /XYZ
- 62.69291
- 576.0236
- 0 ]
- /Next 88 0 R
- /Parent 75 0 R
- /Prev 86 0 R
- /Title (tileBSP\(p\)) >>
+<< /Dest [ 22 0 R /XYZ 62.69291 459.0236 0 ] /Next 88 0 R /Parent 76 0 R /Prev 86 0 R /Title (cloneGrid\(poly, con, xl, yl, xstep, ystep\)) >>
 endobj
-% 'Outline.70.12': class OutlineEntryObject 
 88 0 obj
-<< /Dest [ 22 0 R
- /XYZ
- 62.69291
- 465.0236
- 0 ]
- /Parent 75 0 R
- /Prev 87 0 R
- /Title (gpfInfo\(fileName\)) >>
+<< /Dest [ 22 0 R /XYZ 62.69291 270.0236 0 ] /Next 89 0 R /Parent 76 0 R /Prev 87 0 R /Title (tileBSP\(p\)) >>
 endobj
-% 'R89': class PDFPages 
 89 0 obj
-% page tree
-<< /Count 12
- /Kids [ 7 0 R
- 9 0 R
- 11 0 R
- 12 0 R
- 13 0 R
- 14 0 R
- 15 0 R
- 16 0 R
- 18 0 R
- 19 0 R
- 20 0 R
- 22 0 R ]
- /Type /Pages >>
+<< /Dest [ 22 0 R /XYZ 62.69291 159.0236 0 ] /Parent 76 0 R /Prev 88 0 R /Title (gpfInfo\(fileName\)) >>
 endobj
-% 'R90': class PDFStream 
 90 0 obj
-% page stream
-<< /Length 7079 >>
+<< /Count 13 /Kids [ 7 0 R 9 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 19 0 R 
+  20 0 R 22 0 R 23 0 R ] /Type /Pages >>
+endobj
+91 0 obj
+<< /Length 7207 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1442,13 +581,17 @@ q
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.635697 Tw (Please choose a binary distribution from the homepage that fits your operating system and python) Tj T* 0 Tw (version. For a Linux system you should compile the package by yourself \(see below\).) Tj T* ET
 Q
 Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (1) Tj T* -238.1649 0 Td ET
+Q
+Q
  
 endstream
 endobj
-% 'R91': class PDFStream 
-91 0 obj
-% page stream
-<< /Length 6427 >>
+92 0 obj
+<< /Length 6393 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1460,7 +603,7 @@ Q
 q
 1 0 0 1 62.69291 705.0236 cm
 q
-BT 1 0 0 1 0 26 Tm .827633 Tw 12 TL /F1 10 Tf 0 0 0 rg (Polygon uses the python distutils package. Please edit setup.py and adjust the values on top of the file.) Tj T* 0 Tw .012651 Tw (Run the command ) Tj /F3 10 Tf (python setup.py install ) Tj /F1 10 Tf (to compile and install the module. Make sure you have) Tj T* 0 Tw (write permissions in pythons site-packages directory or use the --prefix or --home options!) Tj T* ET
+BT 1 0 0 1 0 26 Tm .827633 Tw 12 TL /F1 10 Tf 0 0 0 rg (Polygon uses the python distutils package. Please edit setup.py and adjust the values on top of the file.) Tj T* 0 Tw .012651 Tw (Run the command ) Tj /F3 10 Tf 0 0 0 rg (python) Tj ( ) Tj (setup.py) Tj ( ) Tj (install ) Tj /F1 10 Tf 0 0 0 rg (to compile and install the module. Make sure you have) Tj T* 0 Tw (write permissions in pythons site-packages directory or use the --prefix or --home options!) Tj T* ET
 Q
 Q
 q
@@ -1526,7 +669,7 @@ q
 1 0 0 1 62.69291 421.8236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Polygon\(|arg\):) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Polygon\([arg]\):) Tj T* ET
 Q
 Q
 q
@@ -1706,39 +849,50 @@ BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.266654 Tw (In this library a polygon object
 Q
 Q
 q
-1 0 0 1 62.69291 81.82362 cm
+1 0 0 1 62.69291 105.8236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 1.349984 Tw (A Polygon object may contain any number of normal contours \(outline\) and contours which describe a) Tj T* 0 Tw 1.179988 Tw (hole. Every contour has an associated 0/1 flag to specify a hole. The length of a Polygon object is the) Tj T* 0 Tw .36311 Tw (number of contours. You may access single contours with indexing \([]\), slicing is not \(yet\) supported. You) Tj T* 0 Tw .309985 Tw (can't delete or change existing contours or single points of a polygon by assigning values. Please change) Tj T* 0 Tw (the point lists before you apply them to a Polygon object instead.) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.349984 Tw (A Polygon object may contain any number of normal contours \(outline\) and contours which describe a) Tj T* 0 Tw 1.179988 Tw (hole. Every contour has an associated 0/1 flag to specify a hole. The length of a Polygon object is the) Tj T* 0 Tw .36311 Tw (number of contours. You may access single contours with indexing \([]\), slicing is not \(yet\) supported. You) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (2) Tj T* -238.1649 0 Td ET
 Q
 Q
  
 endstream
 endobj
-% 'R92': class PDFStream 
-92 0 obj
-% page stream
-<< /Length 10405 >>
+93 0 obj
+<< /Length 9833 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 750.0236 cm
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .309985 Tw (can't delete or change existing contours or single points of a polygon by assigning values. Please change) Tj T* 0 Tw (the point lists before you apply them to a Polygon object instead.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 714.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Operations on Polygon Objects) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 732.0236 cm
+1 0 0 1 62.69291 696.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(p and q are polygons\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 726.0236 cm
+1 0 0 1 62.69291 690.0236 cm
 Q
 q
-1 0 0 1 62.69291 711.0236 cm
+1 0 0 1 62.69291 675.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1758,7 +912,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 696.0236 cm
+1 0 0 1 62.69291 660.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1779,7 +933,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 681.0236 cm
+1 0 0 1 62.69291 645.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1800,7 +954,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 666.0236 cm
+1 0 0 1 62.69291 630.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1821,7 +975,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 651.0236 cm
+1 0 0 1 62.69291 615.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1842,7 +996,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 636.0236 cm
+1 0 0 1 62.69291 600.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1863,7 +1017,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 621.0236 cm
+1 0 0 1 62.69291 585.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1884,7 +1038,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 606.0236 cm
+1 0 0 1 62.69291 570.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1905,23 +1059,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 579.0236 cm
+1 0 0 1 62.69291 543.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Polygon\(|arg\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Polygon\([arg]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 549.0236 cm
+1 0 0 1 62.69291 513.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .177045 Tw (Constructor: Create a new Polygon object. Files must contain data in gpc polygon format. If arg is another) Tj T* 0 Tw (polygon, a copy is returned.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 543.0236 cm
+1 0 0 1 62.69291 507.0236 cm
 Q
 q
-1 0 0 1 62.69291 468.0236 cm
+1 0 0 1 62.69291 432.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2037,7 +1191,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 453.0236 cm
+1 0 0 1 62.69291 417.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2058,23 +1212,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 426.0236 cm
+1 0 0 1 62.69291 390.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.addContour\(c |, hole=0\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.addContour\(c [, hole=0]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 408.0236 cm
+1 0 0 1 62.69291 372.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Add a contour \(outline or hole\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 402.0236 cm
+1 0 0 1 62.69291 366.0236 cm
 Q
 q
-1 0 0 1 62.69291 363.0236 cm
+1 0 0 1 62.69291 327.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2142,7 +1296,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 348.0236 cm
+1 0 0 1 62.69291 312.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2163,23 +1317,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 321.0236 cm
+1 0 0 1 62.69291 285.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.contour\(i\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 303.0236 cm
+1 0 0 1 62.69291 267.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (gives the contour with index i \(the same as p[i]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 297.0236 cm
+1 0 0 1 62.69291 261.0236 cm
 Q
 q
-1 0 0 1 62.69291 276.0236 cm
+1 0 0 1 62.69291 240.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2223,7 +1377,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 261.0236 cm
+1 0 0 1 62.69291 225.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2244,23 +1398,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 234.0236 cm
+1 0 0 1 62.69291 198.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.isHole\(|i\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.isHole\([i]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 204.0236 cm
+1 0 0 1 62.69291 168.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .011988 Tw (Returns the hole flag of a single contour \(when called with index argument\) or a list of all flags when called) Tj T* 0 Tw (without arguments.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 198.0236 cm
+1 0 0 1 62.69291 162.0236 cm
 Q
 q
-1 0 0 1 62.69291 177.0236 cm
+1 0 0 1 62.69291 141.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2304,7 +1458,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 162.0236 cm
+1 0 0 1 62.69291 126.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2325,23 +1479,36 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 135.0236 cm
+1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.isSolid\(|i\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (3) Tj T* -238.1649 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+94 0 obj
+<< /Length 8822 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 750.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.isSolid\([i]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 105.0236 cm
+1 0 0 1 62.69291 720.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .158935 Tw (Returns the inverted hole flag of a single contour \(when called with index argument\) or a list of all inverted) Tj T* 0 Tw (flags when called without arguments.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 99.02362 cm
+1 0 0 1 62.69291 714.0236 cm
 Q
 q
-1 0 0 1 62.69291 78.02362 cm
+1 0 0 1 62.69291 693.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2384,17 +1551,8 @@ Q
 q
 Q
 Q
- 
-endstream
-endobj
-% 'R93': class PDFStream 
-93 0 obj
-% page stream
-<< /Length 9071 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 750.0236 cm
+1 0 0 1 62.69291 678.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2415,23 +1573,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 723.0236 cm
+1 0 0 1 62.69291 651.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.nPoints\(|i\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.nPoints\([i]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 693.0236 cm
+1 0 0 1 62.69291 621.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.64832 Tw (Returns the number of points of one contour or of the whole polygon. Is much faster than len\(p[i]\) or) Tj T* 0 Tw (reduce\(add, map\(len, p\)\)!) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 687.0236 cm
+1 0 0 1 62.69291 615.0236 cm
 Q
 q
-1 0 0 1 62.69291 666.0236 cm
+1 0 0 1 62.69291 594.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2475,7 +1633,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 651.0236 cm
+1 0 0 1 62.69291 579.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2496,23 +1654,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 624.0236 cm
+1 0 0 1 62.69291 552.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.read\(file\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 582.0236 cm
+1 0 0 1 62.69291 510.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .066488 Tw (Reads Polygon data from a file in gpc format. The file format has changed a while ago, hole flags can now) Tj T* 0 Tw .660542 Tw (be read and written \(this is the default\). Make sure you set the optional argument to False when reading) Tj T* 0 Tw (files without this flag, otherwise the coordinates may not be correct!) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 576.0236 cm
+1 0 0 1 62.69291 504.0236 cm
 Q
 q
-1 0 0 1 62.69291 537.0236 cm
+1 0 0 1 62.69291 465.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2580,7 +1738,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 522.0236 cm
+1 0 0 1 62.69291 450.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2601,23 +1759,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 495.0236 cm
+1 0 0 1 62.69291 423.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.write\(file\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 477.0236 cm
+1 0 0 1 62.69291 405.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Writes Polygon data to a file in gpc format. For the optional argument see above.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 471.0236 cm
+1 0 0 1 62.69291 399.0236 cm
 Q
 q
-1 0 0 1 62.69291 432.0236 cm
+1 0 0 1 62.69291 360.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2685,7 +1843,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 417.0236 cm
+1 0 0 1 62.69291 345.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2706,23 +1864,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 390.0236 cm
+1 0 0 1 62.69291 318.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.simplify\(\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 336.0236 cm
+1 0 0 1 62.69291 264.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.87561 Tw (Try to simplify Polygon. It's possible to add overlapping contours or holes which are outside of other) Tj T* 0 Tw 1.056235 Tw (contours. This may result in wrong calculations of the area, center point, bounding box or other values.) Tj T* 0 Tw .650488 Tw (Call this method to make sure the Polygon is in a good shape. The method first adds all contours with a) Tj T* 0 Tw (hole flag of 0, then substracts all holes and replaces the original Polygon with the result.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 330.0236 cm
+1 0 0 1 62.69291 258.0236 cm
 Q
 q
-1 0 0 1 62.69291 315.0236 cm
+1 0 0 1 62.69291 243.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2743,7 +1901,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 300.0236 cm
+1 0 0 1 62.69291 228.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2764,23 +1922,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 273.0236 cm
+1 0 0 1 62.69291 201.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.area\(|i\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.area\([i]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 243.0236 cm
+1 0 0 1 62.69291 171.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.105868 Tw (Calculates the area of one contour \(when called with index\) or of the whole polygon. All values are) Tj T* 0 Tw (positive! The polygon area is the sum of areas of all solid contours minus the sum of all areas of holes.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 237.0236 cm
+1 0 0 1 62.69291 165.0236 cm
 Q
 q
-1 0 0 1 62.69291 216.0236 cm
+1 0 0 1 62.69291 144.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2824,7 +1982,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 201.0236 cm
+1 0 0 1 62.69291 129.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2845,106 +2003,29 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 174.0236 cm
+1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.center\(|i\)) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 144.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.549986 Tw (Calculates the center of gravity of one contour \(when called with index\) or of the whole Polygon. The) Tj T* 0 Tw (center may be outside the contours or inside holes. This is not the center of the bounding box!) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 138.0236 cm
-Q
-q
-1 0 0 1 62.69291 117.0236 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 9 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 16.92937 0 Td (Arguments:) Tj T* -16.92937 0 Td ET
-Q
-Q
-q
-1 0 0 1 91.03937 15 cm
-Q
-q
-1 0 0 1 91.03937 15 cm
-Q
-q
-1 0 0 1 91.03937 3 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional i: integer) Tj T* ET
-Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 91.03937 3 cm
-Q
-q
-Q
-Q
-q
-1 0 0 1 62.69291 102.0236 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 31.92937 0 Td (Returns:) Tj T* -31.92937 0 Td ET
-Q
-Q
-q
-1 0 0 1 91.03937 3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (a 2-tuple containing x and y float values) Tj T* ET
-Q
-Q
-q
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (4) Tj T* -238.1649 0 Td ET
 Q
 Q
  
 endstream
 endobj
-% 'R94': class PDFStream 
-94 0 obj
-% page stream
-<< /Length 9259 >>
+95 0 obj
+<< /Length 9007 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
 1 0 0 1 62.69291 750.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.orientation\(|i\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.center\([i]\)) Tj T* ET
 Q
 Q
 q
 1 0 0 1 62.69291 720.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.179985 Tw (Calculates the orientation of one contour \(when called with index\) or of all contours. There's no default) Tj T* 0 Tw (orientation, holes are defined by the hole flag, not by the orientation!) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.549986 Tw (Calculates the center of gravity of one contour \(when called with index\) or of the whole Polygon. The) Tj T* 0 Tw (center may be outside the contours or inside holes. This is not the center of the bounding box!) Tj T* ET
 Q
 Q
 q
@@ -3009,7 +2090,7 @@ q
 1 0 0 1 91.03937 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (single integer or list of integers: 1 for ccw, -1 for cw, 0 for invalid contour.) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (a 2-tuple containing x and y float values) Tj T* ET
 Q
 Q
 q
@@ -3018,21 +2099,102 @@ Q
 q
 1 0 0 1 62.69291 651.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.isInside\(x, y |, i\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.orientation\([i]\)) Tj T* ET
 Q
 Q
 q
 1 0 0 1 62.69291 621.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .683318 Tw (Point containment test: returns logical containment value for a single contour \(when called with index\) or) Tj T* 0 Tw (of the whole Polygon. If point is exactly on the border, the value may be True or False, sorry!) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.179985 Tw (Calculates the orientation of one contour \(when called with index\) or of all contours. There's no default) Tj T* 0 Tw (orientation, holes are defined by the hole flag, not by the orientation!) Tj T* ET
 Q
 Q
 q
 1 0 0 1 62.69291 615.0236 cm
 Q
 q
-1 0 0 1 62.69291 558.0236 cm
+1 0 0 1 62.69291 594.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 16.92937 0 Td (Arguments:) Tj T* -16.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+Q
+q
+1 0 0 1 91.03937 15 cm
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional i: integer) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 31.92937 0 Td (Returns:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (single integer or list of integers: 1 for ccw, -1 for cw, 0 for invalid contour.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 552.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.isInside\(x, y [, i]\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 522.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .683318 Tw (Point containment test: returns logical containment value for a single contour \(when called with index\) or) Tj T* 0 Tw (of the whole Polygon. If point is exactly on the border, the value may be True or False, sorry!) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 516.0236 cm
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -3124,87 +2286,6 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 543.0236 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 31.92937 0 Td (Returns:) Tj T* -31.92937 0 Td ET
-Q
-Q
-q
-1 0 0 1 91.03937 3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (bool) Tj T* ET
-Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 62.69291 516.0236 cm
-q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.covers\(q\)) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 486.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.54881 Tw (Tests if the polygon completely covers the other polygon q. At first the bounding boxes are tested for) Tj T* 0 Tw (obvious cases and then an optional clipping is performed.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 480.0236 cm
-Q
-q
-1 0 0 1 62.69291 459.0236 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 9 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 16.92937 0 Td (Arguments:) Tj T* -16.92937 0 Td ET
-Q
-Q
-q
-1 0 0 1 91.03937 15 cm
-Q
-q
-1 0 0 1 91.03937 15 cm
-Q
-q
-1 0 0 1 91.03937 3 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (p: Polygon) Tj T* ET
-Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 91.03937 3 cm
-Q
-q
-Q
-Q
-q
 1 0 0 1 62.69291 444.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -3228,14 +2309,14 @@ Q
 q
 1 0 0 1 62.69291 417.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.overlaps\(q\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.covers\(q\)) Tj T* ET
 Q
 Q
 q
 1 0 0 1 62.69291 387.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .134431 Tw (Tests if the polygon overlaps the other polygon q. At first the bounding boxes are tested for obvious cases) Tj T* 0 Tw (and then an optional clipping is performed.) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.54881 Tw (Tests if the polygon completely covers the other polygon q. At first the bounding boxes are tested for) Tj T* 0 Tw (obvious cases and then an optional clipping is performed.) Tj T* ET
 Q
 Q
 q
@@ -3309,21 +2390,21 @@ Q
 q
 1 0 0 1 62.69291 318.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.boundingBox\(|i\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.overlaps\(q\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 276.0236 cm
+1 0 0 1 62.69291 288.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .319987 Tw (Calculates the bounding box of one contour \(when called with index\) or of the whole polygon. In the latter) Tj T* 0 Tw 3.522485 Tw (case the data is cached and used for following calls and internal calculations. The data will be) Tj T* 0 Tw (recalculated automatically when this method is called after the polygon has changed.) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .134431 Tw (Tests if the polygon overlaps the other polygon q. At first the bounding boxes are tested for obvious cases) Tj T* 0 Tw (and then an optional clipping is performed.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 270.0236 cm
+1 0 0 1 62.69291 282.0236 cm
 Q
 q
-1 0 0 1 62.69291 249.0236 cm
+1 0 0 1 62.69291 261.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -3354,7 +2435,7 @@ q
 1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional i: integer) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (p: Polygon) Tj T* ET
 Q
 Q
 q
@@ -3367,7 +2448,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 234.0236 cm
+1 0 0 1 62.69291 246.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -3381,23 +2462,23 @@ q
 1 0 0 1 91.03937 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (tuple of four floats: xmin, xmax, ymin and ymax) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (bool) Tj T* ET
 Q
 Q
 q
 Q
 Q
 q
-1 0 0 1 62.69291 207.0236 cm
+1 0 0 1 62.69291 219.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.aspectRatio\(|i\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.boundingBox\([i]\)) Tj T* ET
 Q
 Q
 q
 1 0 0 1 62.69291 177.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .36436 Tw (Returns the aspect ratio \(ymax-ymin\) / \(xmax-xmin\) of the bounding box of one contour \(when called with) Tj T* 0 Tw (index\) or of the whole polygon.) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .319987 Tw (Calculates the bounding box of one contour \(when called with index\) or of the whole polygon. In the latter) Tj T* 0 Tw 3.522485 Tw (case the data is cached and used for following calls and internal calculations. The data will be) Tj T* 0 Tw (recalculated automatically when this method is called after the polygon has changed.) Tj T* ET
 Q
 Q
 q
@@ -3462,6 +2543,100 @@ q
 1 0 0 1 91.03937 3 cm
 q
 0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (tuple of four floats: xmin, xmax, ymin and ymax) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (5) Tj T* -238.1649 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+96 0 obj
+<< /Length 9286 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 750.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.aspectRatio\([i]\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 720.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .36436 Tw (Returns the aspect ratio \(ymax-ymin\) / \(xmax-xmin\) of the bounding box of one contour \(when called with) Tj T* 0 Tw (index\) or of the whole polygon.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 714.0236 cm
+Q
+q
+1 0 0 1 62.69291 693.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 16.92937 0 Td (Arguments:) Tj T* -16.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+Q
+q
+1 0 0 1 91.03937 15 cm
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional i: integer) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 678.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 31.92937 0 Td (Returns:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (float) Tj T* ET
 Q
 Q
@@ -3469,32 +2644,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 108.0236 cm
+1 0 0 1 62.69291 651.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.scale\(xs, ys |, xc, yc\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.scale\(xs, ys [, xc [, yc]]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 78.02362 cm
+1 0 0 1 62.69291 621.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .596303 Tw (Scales the polygon by multiplying with xs and ys around the center point. If no center is given the center) Tj T* 0 Tw (point of the bounding box is used, which will not be changed by this operation.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 76.86614 cm
+1 0 0 1 62.69291 615.0236 cm
 Q
- 
-endstream
-endobj
-% 'R95': class PDFStream 
-95 0 obj
-% page stream
-<< /Length 9812 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 690.0236 cm
+1 0 0 1 62.69291 540.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -3610,7 +2776,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 675.0236 cm
+1 0 0 1 62.69291 525.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -3631,23 +2797,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 648.0236 cm
+1 0 0 1 62.69291 498.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.shift\(xs, ys\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 630.0236 cm
+1 0 0 1 62.69291 480.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Shifts the polygon by adding xs and ys.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 624.0236 cm
+1 0 0 1 62.69291 474.0236 cm
 Q
 q
-1 0 0 1 62.69291 585.0236 cm
+1 0 0 1 62.69291 435.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -3715,7 +2881,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 570.0236 cm
+1 0 0 1 62.69291 420.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -3736,23 +2902,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 543.0236 cm
+1 0 0 1 62.69291 393.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.rotate\(a |, xc, yc\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.rotate\(a [, xc [, yc]]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 513.0236 cm
+1 0 0 1 62.69291 363.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .419988 Tw (Rotates the polygon by angle a around center point in ccw direction. If no center is given the center point) Tj T* 0 Tw (of the bounding box is used.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 507.0236 cm
+1 0 0 1 62.69291 357.0236 cm
 Q
 q
-1 0 0 1 62.69291 450.0236 cm
+1 0 0 1 62.69291 300.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -3844,7 +3010,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 435.0236 cm
+1 0 0 1 62.69291 285.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -3865,22 +3031,22 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 408.0236 cm
+1 0 0 1 62.69291 258.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.warpToBox\(x0, x1, y0, y1\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 378.0236 cm
+1 0 0 1 62.69291 228.0236 cm
 q
 BT 1 0 0 1 0 14 Tm .419036 Tw 12 TL /F1 10 Tf 0 0 0 rg (Scales and shifts the polygon to fit into the bounding box specified by x0, x1, y0 and y1. Make sure: x0 <) Tj T* 0 Tw (x1 and y0 < y1!) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 372.0236 cm
+1 0 0 1 62.69291 222.0236 cm
 Q
 q
-1 0 0 1 62.69291 297.0236 cm
+1 0 0 1 62.69291 147.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -3996,7 +3162,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 282.0236 cm
+1 0 0 1 62.69291 132.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4017,23 +3183,36 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 255.0236 cm
+1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.flip\(|x\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (6) Tj T* -238.1649 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+97 0 obj
+<< /Length 8248 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 750.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.flip\([x]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 237.0236 cm
+1 0 0 1 62.69291 732.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Flips polygon in x direction. If a value for x is not given, the center of the bounding box is used.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 231.0236 cm
+1 0 0 1 62.69291 726.0236 cm
 Q
 q
-1 0 0 1 62.69291 210.0236 cm
+1 0 0 1 62.69291 705.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4077,7 +3256,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 195.0236 cm
+1 0 0 1 62.69291 690.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4098,23 +3277,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 168.0236 cm
+1 0 0 1 62.69291 663.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.flop\(|y\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.flop\([y]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 150.0236 cm
+1 0 0 1 62.69291 645.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Flips polygon in y direction. If a value for y is not given, the center of the bounding box is used.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 144.0236 cm
+1 0 0 1 62.69291 639.0236 cm
 Q
 q
-1 0 0 1 62.69291 123.0236 cm
+1 0 0 1 62.69291 618.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4158,7 +3337,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 108.0236 cm
+1 0 0 1 62.69291 603.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4178,33 +3357,24 @@ Q
 q
 Q
 Q
- 
-endstream
-endobj
-% 'R96': class PDFStream 
-96 0 obj
-% page stream
-<< /Length 9265 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 750.0236 cm
+1 0 0 1 62.69291 576.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.cloneContour\(i|, xs, ys\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.cloneContour\(i [, xs [, ys]]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 732.0236 cm
+1 0 0 1 62.69291 558.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Clones the contour i, returns index of clone, optionally shifts clone by xs and ys.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 726.0236 cm
+1 0 0 1 62.69291 552.0236 cm
 Q
 q
-1 0 0 1 62.69291 669.0236 cm
+1 0 0 1 62.69291 495.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4296,7 +3466,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 654.0236 cm
+1 0 0 1 62.69291 480.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4317,30 +3487,30 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 627.0236 cm
+1 0 0 1 62.69291 453.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.triStrip\(\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 597.0236 cm
+1 0 0 1 62.69291 423.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .124988 Tw (Returns a list of tristrips describing the Polygon area. A tristrip is a list of triangles. The sum of all triangles) Tj T* 0 Tw (fill the tristrip area. The triangles are usually not in a good shape for FEM methods!) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 543.0236 cm
+1 0 0 1 62.69291 369.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 2.869318 Tw (Each strip stores triangle data by an memory-efficient method. A strip is a tuple containing points) Tj T* 0 Tw .784431 Tw (\(2-tuples\). The first three items of the tuple belong to the first triangle. The second, third and fourth item) Tj T* 0 Tw 2.018876 Tw (are the corners of the second triangle. Item number three, four and five are the corners of the third) Tj T* 0 Tw (triangle, \(...you may guess the rest!\). The number of triangles in a strip is the number of points minus 2.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 537.0236 cm
+1 0 0 1 62.69291 363.0236 cm
 Q
 q
-1 0 0 1 62.69291 522.0236 cm
+1 0 0 1 62.69291 348.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4361,7 +3531,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 507.0236 cm
+1 0 0 1 62.69291 333.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4382,23 +3552,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 480.0236 cm
+1 0 0 1 62.69291 306.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (p.sample\(rng\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 462.0236 cm
+1 0 0 1 62.69291 288.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Returns a random sample somewhere within the polygon.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 456.0236 cm
+1 0 0 1 62.69291 282.0236 cm
 Q
 q
-1 0 0 1 62.69291 423.0236 cm
+1 0 0 1 62.69291 249.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4442,7 +3612,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 408.0236 cm
+1 0 0 1 62.69291 234.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4463,36 +3633,49 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 378.0236 cm
+1 0 0 1 62.69291 204.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Module Polygon.Shapes) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 360.0236 cm
+1 0 0 1 62.69291 186.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This module contains functions that create polygons in different shapes.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 333.0236 cm
+1 0 0 1 62.69291 159.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Circle\(|radius=1.0, center=\(0.0,0.0\), points=32\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Circle\([radius=1.0 [, center=\(0.0,0.0\) [, points=32]]]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 315.0236 cm
+1 0 0 1 62.69291 129.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Create a polygonal approximation of a circle.) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.43811 Tw (Create a polygonal approximation of a circle. This function can be used to create any regular polygon) Tj T* 0 Tw (where the parameter "points" gives the number of sides.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 309.0236 cm
+1 0 0 1 62.69291 123.0236 cm
 Q
 q
-1 0 0 1 62.69291 252.0236 cm
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (7) Tj T* -238.1649 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+98 0 obj
+<< /Length 9202 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 708.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4584,7 +3767,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 237.0236 cm
+1 0 0 1 62.69291 693.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4605,23 +3788,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 210.0236 cm
+1 0 0 1 62.69291 666.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Star\(|radius=1.0, center=\(0.0,0.0\), beams=16, iradius=0.5\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Star\([radius=1.0 [, center=\(0.0,0.0\), [beams=16, [iradius=0.5]]]]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 192.0236 cm
+1 0 0 1 62.69291 648.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Create a star shape, iradius is the inner and radius the outer radius.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 186.0236 cm
+1 0 0 1 62.69291 642.0236 cm
 Q
 q
-1 0 0 1 62.69291 111.0236 cm
+1 0 0 1 62.69291 567.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4737,7 +3920,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 96.02362 cm
+1 0 0 1 62.69291 552.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4757,33 +3940,24 @@ Q
 q
 Q
 Q
- 
-endstream
-endobj
-% 'R97': class PDFStream 
-97 0 obj
-% page stream
-<< /Length 8660 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 750.0236 cm
+1 0 0 1 62.69291 525.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Rectangle\(|xl= 1.0, yl=None\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Rectangle\([xl=1.0 [, yl=None]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 732.0236 cm
+1 0 0 1 62.69291 507.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Create a rectangular shape. If yl is not set, a square is created.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 726.0236 cm
+1 0 0 1 62.69291 501.0236 cm
 Q
 q
-1 0 0 1 62.69291 687.0236 cm
+1 0 0 1 62.69291 462.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4851,7 +4025,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 672.0236 cm
+1 0 0 1 62.69291 447.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4872,29 +4046,29 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 645.0236 cm
+1 0 0 1 62.69291 420.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (SierpinksiCarpet\(|width= 1.0, level=5\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (SierpinksiCarpet\([width= 1.0 [, level=5]]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 627.0236 cm
+1 0 0 1 62.69291 402.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Create a sierpinski carpet.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 609.0236 cm
+1 0 0 1 62.69291 384.0236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (### DO NOT USE LEVELS > 6 UNLESS YOU KNOW WHAT YOU DO! ###) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 603.0236 cm
+1 0 0 1 62.69291 378.0236 cm
 Q
 q
-1 0 0 1 62.69291 564.0236 cm
+1 0 0 1 62.69291 339.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4962,7 +4136,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 549.0236 cm
+1 0 0 1 62.69291 324.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -4983,36 +4157,36 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 519.0236 cm
+1 0 0 1 62.69291 294.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Module Polygon.IO) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 501.0236 cm
+1 0 0 1 62.69291 276.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This module provides functions for reading and writing Polygons in different formats.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 474.0236 cm
+1 0 0 1 62.69291 249.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (encodeBinary\(p\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 432.0236 cm
+1 0 0 1 62.69291 207.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .188409 Tw (Encode Polygon p to a binary string. The binary string will be in a standard format with network byte order) Tj T* 0 Tw .887318 Tw (and should be rather machine independant. There's no redundancy in the string, any damage will make) Tj T* 0 Tw (the hole polygon information unusable.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 426.0236 cm
+1 0 0 1 62.69291 201.0236 cm
 Q
 q
-1 0 0 1 62.69291 405.0236 cm
+1 0 0 1 62.69291 180.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5056,7 +4230,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 390.0236 cm
+1 0 0 1 62.69291 165.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5077,23 +4251,36 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 363.0236 cm
+1 0 0 1 62.69291 138.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (decodeBinary\(s\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 333.0236 cm
+1 0 0 1 62.69291 108.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .439398 Tw (Create Polygon from a binary string created with encodeBinary\(\). If the string is not valid, the whole thing) Tj T* 0 Tw (may break!) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 327.0236 cm
+1 0 0 1 62.69291 102.0236 cm
 Q
 q
-1 0 0 1 62.69291 306.0236 cm
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (8) Tj T* -238.1649 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+99 0 obj
+<< /Length 10274 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5137,7 +4324,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 291.0236 cm
+1 0 0 1 62.69291 729.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5158,36 +4345,36 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 249.0236 cm
+1 0 0 1 62.69291 687.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.387318 Tw (The following write-methods will accept different argument types for the output. If ofile is None, the) Tj T* 0 Tw .651488 Tw (method will create and return a StringIO-object. If ofile is a string, a file with that name will be created. If) Tj T* 0 Tw (ofile is a file, it will be used for writing.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 207.0236 cm
+1 0 0 1 62.69291 645.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .756651 Tw (The following read-methods will accept different argument types for the output. An file or StringIO object) Tj T* 0 Tw .445207 Tw (will be used directly. If the argument is a string, the function tries to read a file with that name. If it fails, it) Tj T* 0 Tw (will evaluate the string directly.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 180.0236 cm
+1 0 0 1 62.69291 618.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (writeGnuplot\(ofile, polylist\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 150.0236 cm
+1 0 0 1 62.69291 588.0236 cm
 q
-BT 1 0 0 1 0 14 Tm .00332 Tw 12 TL /F1 10 Tf 0 0 0 rg (Write a list of Polygons to a gnuplot file, which may be plotted using the command ) Tj /F3 10 Tf (plot "ofile" with) Tj T* 0 Tw (lines ) Tj /F1 10 Tf (from gnuplot.) Tj T* ET
+BT 1 0 0 1 0 14 Tm 7.203984 Tw 12 TL /F1 10 Tf 0 0 0 rg (Write a list of Polygons to a gnuplot file, which may be plotted using the command) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (plot) Tj ( ) Tj ("ofile") Tj ( ) Tj (with) Tj ( ) Tj (lines ) Tj /F1 10 Tf 0 0 0 rg (from gnuplot.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 144.0236 cm
+1 0 0 1 62.69291 582.0236 cm
 Q
 q
-1 0 0 1 62.69291 105.0236 cm
+1 0 0 1 62.69291 543.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5255,7 +4442,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 90.02362 cm
+1 0 0 1 62.69291 528.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5275,32 +4462,23 @@ Q
 q
 Q
 Q
- 
-endstream
-endobj
-% 'R98': class PDFStream 
-98 0 obj
-% page stream
-<< /Length 10348 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 750.0236 cm
+1 0 0 1 62.69291 501.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (writeGnuplotTriangles\(ofile, polylist\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 720.0236 cm
+1 0 0 1 62.69291 471.0236 cm
 q
-BT 1 0 0 1 0 14 Tm .918409 Tw 12 TL /F1 10 Tf 0 0 0 rg (Converts a list of Polygons to triangles and write the tringle data to a gnuplot file, which may be plotted) Tj T* 0 Tw (using the command ) Tj /F3 10 Tf (plot "ofile" with lines ) Tj /F1 10 Tf (from gnuplot.) Tj T* ET
+BT 1 0 0 1 0 14 Tm .918409 Tw 12 TL /F1 10 Tf 0 0 0 rg (Converts a list of Polygons to triangles and write the tringle data to a gnuplot file, which may be plotted) Tj T* 0 Tw (using the command ) Tj /F3 10 Tf 0 0 0 rg (plot) Tj ( ) Tj ("ofile") Tj ( ) Tj (with) Tj ( ) Tj (lines ) Tj /F1 10 Tf 0 0 0 rg (from gnuplot.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 714.0236 cm
+1 0 0 1 62.69291 465.0236 cm
 Q
 q
-1 0 0 1 62.69291 675.0236 cm
+1 0 0 1 62.69291 426.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5368,7 +4546,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 660.0236 cm
+1 0 0 1 62.69291 411.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5389,23 +4567,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 633.0236 cm
+1 0 0 1 62.69291 384.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (writeSVG\(ofile, polylist, ...\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (writeSVG\(ofile, polylist, [...]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 591.0236 cm
+1 0 0 1 62.69291 342.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.091751 Tw (Write a SVG representation of the Polygons in polylist, width and/or height will be adapted if not given.) Tj T* 0 Tw 1.455814 Tw (fill_color, fill_opacity, stroke_color and stroke_width can be sequences of the corresponding SVG style) Tj T* 0 Tw (attributes to use. Optional labels can be placed at the polygons.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 585.0236 cm
+1 0 0 1 62.69291 336.0236 cm
 Q
 q
-1 0 0 1 62.69291 372.0236 cm
+1 0 0 1 62.69291 123.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5556,7 +4734,7 @@ q
 1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional fill_opacity: sequence of colors) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optional fill_opacity: sequence of floats [0,1]) Tj T* ET
 Q
 Q
 q
@@ -5689,7 +4867,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 357.0236 cm
+1 0 0 1 62.69291 108.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5710,23 +4888,36 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 330.0236 cm
+1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (writeXML\(ofile, polylist, withHeader=False\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (9) Tj T* -238.1649 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+100 0 obj
+<< /Length 9432 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 750.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (writeXML\(ofile, polylist [, withHeader=False]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 300.0236 cm
+1 0 0 1 62.69291 720.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .18683 Tw (Write a readable representation of the Polygons in polylist to a XML file. A simple header can be added to) Tj T* 0 Tw (make the file parsable.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 294.0236 cm
+1 0 0 1 62.69291 714.0236 cm
 Q
 q
-1 0 0 1 62.69291 237.0236 cm
+1 0 0 1 62.69291 657.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5818,7 +5009,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 222.0236 cm
+1 0 0 1 62.69291 642.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5839,23 +5030,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 195.0236 cm
+1 0 0 1 62.69291 615.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (readXML\(ifile\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 177.0236 cm
+1 0 0 1 62.69291 597.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Read a list of Polygons from a XML file which was written with writeXML\(\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 171.0236 cm
+1 0 0 1 62.69291 591.0236 cm
 Q
 q
-1 0 0 1 62.69291 150.0236 cm
+1 0 0 1 62.69291 570.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5899,7 +5090,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 135.0236 cm
+1 0 0 1 62.69291 555.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -5920,31 +5111,22 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 108.0236 cm
+1 0 0 1 62.69291 528.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (writePDF\(ofile, polylist, pagesize=None, linewidth=0, fill_color=None\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (writePDF\(ofile, polylist, [pagesize=None [, linewidth=0 [, fill_color=None]]]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 78.02362 cm
+1 0 0 1 62.69291 498.0236 cm
 q
 BT 1 0 0 1 0 14 Tm 1.217765 Tw 12 TL /F5 10 Tf 0 0 0 rg (This function is only available if the reportlab package is installed! ) Tj /F1 10 Tf (Write a the Polygons in polylist to a) Tj T* 0 Tw (PDF file.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 76.86614 cm
+1 0 0 1 62.69291 492.0236 cm
 Q
- 
-endstream
-endobj
-% 'R99': class PDFStream 
-99 0 obj
-% page stream
-<< /Length 8621 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 672.0236 cm
+1 0 0 1 62.69291 399.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6084,7 +5266,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 657.0236 cm
+1 0 0 1 62.69291 384.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6105,36 +5287,36 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 627.0236 cm
+1 0 0 1 62.69291 354.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Module Polygon.Utils) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 609.0236 cm
+1 0 0 1 62.69291 336.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This Module contains several utility functions.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 582.0236 cm
+1 0 0 1 62.69291 309.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (fillHoles\(p\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 564.0236 cm
+1 0 0 1 62.69291 291.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Returns the polygon p without any holes.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 558.0236 cm
+1 0 0 1 62.69291 285.0236 cm
 Q
 q
-1 0 0 1 62.69291 537.0236 cm
+1 0 0 1 62.69291 264.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6178,7 +5360,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 522.0236 cm
+1 0 0 1 62.69291 249.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6199,23 +5381,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 495.0236 cm
+1 0 0 1 62.69291 222.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (pointList\(p\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 477.0236 cm
+1 0 0 1 62.69291 204.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Returns a list of all points of p.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 471.0236 cm
+1 0 0 1 62.69291 198.0236 cm
 Q
 q
-1 0 0 1 62.69291 450.0236 cm
+1 0 0 1 62.69291 177.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6259,7 +5441,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 435.0236 cm
+1 0 0 1 62.69291 162.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6280,23 +5462,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 408.0236 cm
+1 0 0 1 62.69291 135.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (convexHull\(p\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 390.0236 cm
+1 0 0 1 62.69291 117.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Returns a polygon which is the convex hull of p.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 384.0236 cm
+1 0 0 1 62.69291 111.0236 cm
 Q
 q
-1 0 0 1 62.69291 363.0236 cm
+1 0 0 1 62.69291 90.02362 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6340,7 +5522,20 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 348.0236 cm
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (10) Tj T* -235.3849 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+101 0 obj
+<< /Length 8618 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 750.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6361,23 +5556,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 321.0236 cm
+1 0 0 1 62.69291 723.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (tile\(p, x=[], y=[] |, bb=None\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (tile\(p [, x=[] [, y=[] [, bb=None]]]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 291.0236 cm
+1 0 0 1 62.69291 693.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.360465 Tw (Returns a list of polygons which are tiles of p splitted at the border values specified in x and y. If you) Tj T* 0 Tw (already know the bounding box of p, you may give it as argument bb \(4-tuple\) to speed up the calculation.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 285.0236 cm
+1 0 0 1 62.69291 687.0236 cm
 Q
 q
-1 0 0 1 62.69291 210.0236 cm
+1 0 0 1 62.69291 612.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6493,7 +5688,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 195.0236 cm
+1 0 0 1 62.69291 597.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6514,32 +5709,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 168.0236 cm
+1 0 0 1 62.69291 570.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (tileEqual\(p, nx=1, ny=1 |, bb=None\)) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (tileEqual\(p [, nx=1 [, ny=1 [, bb=None]]]\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 150.0236 cm
+1 0 0 1 62.69291 552.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (works like tile\(\), but splits into nx and ny parts.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 144.0236 cm
+1 0 0 1 62.69291 546.0236 cm
 Q
- 
-endstream
-endobj
-% 'R100': class PDFStream 
-100 0 obj
-% page stream
-<< /Length 9623 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 690.0236 cm
+1 0 0 1 62.69291 471.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6655,7 +5841,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 675.0236 cm
+1 0 0 1 62.69291 456.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6676,23 +5862,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 648.0236 cm
+1 0 0 1 62.69291 429.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (warpToOrigin\(p\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 630.0236 cm
+1 0 0 1 62.69291 411.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Shifts lower left corner of the bounding box to origin.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 624.0236 cm
+1 0 0 1 62.69291 405.0236 cm
 Q
 q
-1 0 0 1 62.69291 603.0236 cm
+1 0 0 1 62.69291 384.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6736,7 +5922,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 588.0236 cm
+1 0 0 1 62.69291 369.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6757,23 +5943,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 561.0236 cm
+1 0 0 1 62.69291 342.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (centerAroundOrigin\(p\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 543.0236 cm
+1 0 0 1 62.69291 324.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Shifts the center of the bounding box to origin.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 537.0236 cm
+1 0 0 1 62.69291 318.0236 cm
 Q
 q
-1 0 0 1 62.69291 516.0236 cm
+1 0 0 1 62.69291 297.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6817,7 +6003,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 501.0236 cm
+1 0 0 1 62.69291 282.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6838,23 +6024,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 474.0236 cm
+1 0 0 1 62.69291 255.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (prunePoints\(p\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 444.0236 cm
+1 0 0 1 62.69291 225.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .69881 Tw (Returns a new Polygon which has exactly the same shape as p, but unneeded points are removed. The) Tj T* 0 Tw (new Polygon has no double points or points that are exactly on a straight line.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 438.0236 cm
+1 0 0 1 62.69291 219.0236 cm
 Q
 q
-1 0 0 1 62.69291 417.0236 cm
+1 0 0 1 62.69291 198.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6898,7 +6084,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 402.0236 cm
+1 0 0 1 62.69291 183.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -6919,22 +6105,35 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 375.0236 cm
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (11) Tj T* -235.3849 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+102 0 obj
+<< /Length 9499 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 750.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (reducePoints\(cont, n\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 297.0236 cm
+1 0 0 1 62.69291 672.0236 cm
 q
 BT 1 0 0 1 0 62 Tm .446457 Tw 12 TL /F1 10 Tf 0 0 0 rg (Remove points of the contour 'cont', return a new contour with 'n' points. ) Tj /F5 10 Tf (Very simple ) Tj /F1 10 Tf (approach to reduce) Tj T* 0 Tw 2.075868 Tw (the number of points of a contour. Each point gets an associated 'value of importance' which is the) Tj T* 0 Tw .653145 Tw (product of the lengths and absolute angle of the left and right vertex. The points are sorted by this value) Tj T* 0 Tw .766457 Tw (and the n most important points are returned. This method may give ) Tj /F5 10 Tf (very ) Tj /F1 10 Tf (bad results for some contours) Tj T* 0 Tw .574651 Tw (like symmetric figures. It may even produce self-intersecting contours which are not valid to process with) Tj T* 0 Tw (this module.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 291.0236 cm
+1 0 0 1 62.69291 666.0236 cm
 Q
 q
-1 0 0 1 62.69291 252.0236 cm
+1 0 0 1 62.69291 627.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -7002,7 +6201,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 237.0236 cm
+1 0 0 1 62.69291 612.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -7023,23 +6222,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 210.0236 cm
+1 0 0 1 62.69291 585.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (reducePointsDP\(cont, tol\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 156.0236 cm
+1 0 0 1 62.69291 531.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 2.353984 Tw (Remove points of the contour 'cont' using the Douglas-Peucker algorithm. The value of tol sets the) Tj T* 0 Tw .533828 Tw (maximum allowed difference between the contours. This \(slightly changed\) code was written by Schuyler) Tj T* 0 Tw .691098 Tw (Erle and put into public domain. It uses an iterative approach that may need some time to complete, but) Tj T* 0 Tw (will give better results than reducePoints\(\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 150.0236 cm
+1 0 0 1 62.69291 525.0236 cm
 Q
 q
-1 0 0 1 62.69291 111.0236 cm
+1 0 0 1 62.69291 486.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -7107,7 +6306,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 96.02362 cm
+1 0 0 1 62.69291 471.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -7127,33 +6326,24 @@ Q
 q
 Q
 Q
- 
-endstream
-endobj
-% 'R101': class PDFStream 
-101 0 obj
-% page stream
-<< /Length 6833 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 750.0236 cm
+1 0 0 1 62.69291 444.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (cloneGrid\(poly, con, xl, yl, xstep, ystep\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 720.0236 cm
+1 0 0 1 62.69291 414.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .27528 Tw (Create a single new polygon with contours that are made from contour con from polygon poly arranged in) Tj T* 0 Tw (a xl-yl-grid with spacing xstep and ystep.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 714.0236 cm
+1 0 0 1 62.69291 408.0236 cm
 Q
 q
-1 0 0 1 62.69291 603.0236 cm
+1 0 0 1 62.69291 297.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -7317,7 +6507,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 588.0236 cm
+1 0 0 1 62.69291 282.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -7338,22 +6528,22 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 561.0236 cm
+1 0 0 1 62.69291 255.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (tileBSP\(p\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 519.0236 cm
+1 0 0 1 62.69291 213.0236 cm
 q
 BT 1 0 0 1 0 26 Tm .599987 Tw 12 TL /F1 10 Tf 0 0 0 rg (This generator function returns tiles of a polygon. It will be much more efficient for larger polygons and a) Tj T* 0 Tw 12.10915 Tw (large number of tiles than the original tile\(\) function. For a discussion see:) Tj T* 0 Tw 0 0 .501961 rg (http://dr-josiah.blogspot.com/2010/08/binary-space-partitions-and-you.html) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 513.0236 cm
+1 0 0 1 62.69291 207.0236 cm
 Q
 q
-1 0 0 1 62.69291 492.0236 cm
+1 0 0 1 62.69291 186.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -7397,7 +6587,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 477.0236 cm
+1 0 0 1 62.69291 171.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -7418,23 +6608,23 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 450.0236 cm
+1 0 0 1 62.69291 144.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (gpfInfo\(fileName\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 432.0236 cm
+1 0 0 1 62.69291 126.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Get information on a gpc/gpf file.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 426.0236 cm
+1 0 0 1 62.69291 120.0236 cm
 Q
 q
-1 0 0 1 62.69291 405.0236 cm
+1 0 0 1 62.69291 99.02362 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -7478,7 +6668,20 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 330.0236 cm
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (12) Tj T* -235.3849 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+103 0 obj
+<< /Length 1749 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 690.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -7593,234 +6796,184 @@ Q
 q
 Q
 Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (13) Tj T* -235.3849 0 Td ET
+Q
+Q
  
 endstream
 endobj
-% 'R102': class PDFPageLabels 
-102 0 obj
-% Document Root
-<< /Nums [ 0
- 103 0 R
- 1
- 104 0 R
- 2
- 105 0 R
- 3
- 106 0 R
- 4
- 107 0 R
- 5
- 108 0 R
- 6
- 109 0 R
- 7
- 110 0 R
- 8
- 111 0 R
- 9
- 112 0 R
- 10
- 113 0 R
- 11
- 114 0 R ] >>
-endobj
-% 'R103': class PDFPageLabel 
-103 0 obj
-% None
-<< /S /D
- /St 1 >>
-endobj
-% 'R104': class PDFPageLabel 
 104 0 obj
-% None
-<< /S /D
- /St 2 >>
+<< /Nums [ 0 105 0 R 1 106 0 R 2 107 0 R 3 108 0 R 4 109 0 R 
+  5 110 0 R 6 111 0 R 7 112 0 R 8 113 0 R 9 114 0 R 
+  10 115 0 R 11 116 0 R 12 117 0 R ] >>
 endobj
-% 'R105': class PDFPageLabel 
 105 0 obj
-% None
-<< /S /D
- /St 3 >>
+<< /S /D /St 1 >>
 endobj
-% 'R106': class PDFPageLabel 
 106 0 obj
-% None
-<< /S /D
- /St 4 >>
+<< /S /D /St 2 >>
 endobj
-% 'R107': class PDFPageLabel 
 107 0 obj
-% None
-<< /S /D
- /St 5 >>
+<< /S /D /St 3 >>
 endobj
-% 'R108': class PDFPageLabel 
 108 0 obj
-% None
-<< /S /D
- /St 6 >>
+<< /S /D /St 4 >>
 endobj
-% 'R109': class PDFPageLabel 
 109 0 obj
-% None
-<< /S /D
- /St 7 >>
+<< /S /D /St 5 >>
 endobj
-% 'R110': class PDFPageLabel 
 110 0 obj
-% None
-<< /S /D
- /St 8 >>
+<< /S /D /St 6 >>
 endobj
-% 'R111': class PDFPageLabel 
 111 0 obj
-% None
-<< /S /D
- /St 9 >>
+<< /S /D /St 7 >>
 endobj
-% 'R112': class PDFPageLabel 
 112 0 obj
-% None
-<< /S /D
- /St 10 >>
+<< /S /D /St 8 >>
 endobj
-% 'R113': class PDFPageLabel 
 113 0 obj
-% None
-<< /S /D
- /St 11 >>
+<< /S /D /St 9 >>
 endobj
-% 'R114': class PDFPageLabel 
 114 0 obj
-% None
-<< /S /D
- /St 12 >>
+<< /S /D /St 10 >>
+endobj
+115 0 obj
+<< /S /D /St 11 >>
+endobj
+116 0 obj
+<< /S /D /St 12 >>
+endobj
+117 0 obj
+<< /S /D /St 13 >>
 endobj
 xref
-0 115
+0 118
 0000000000 65535 f
-0000000113 00000 n
-0000000259 00000 n
-0000000424 00000 n
-0000000611 00000 n
-0000000854 00000 n
-0000001112 00000 n
-0000001360 00000 n
-0000001677 00000 n
-0000001836 00000 n
-0000002117 00000 n
-0000002305 00000 n
-0000002585 00000 n
-0000002865 00000 n
-0000003145 00000 n
-0000003425 00000 n
-0000003705 00000 n
-0000003987 00000 n
-0000004167 00000 n
-0000004448 00000 n
-0000004729 00000 n
-0000005024 00000 n
-0000005304 00000 n
-0000005607 00000 n
-0000005767 00000 n
-0000006069 00000 n
-0000006195 00000 n
-0000006412 00000 n
-0000006583 00000 n
-0000006815 00000 n
-0000006986 00000 n
-0000007157 00000 n
-0000007345 00000 n
-0000007569 00000 n
-0000007805 00000 n
-0000007998 00000 n
-0000008192 00000 n
-0000008398 00000 n
-0000008591 00000 n
-0000008784 00000 n
-0000008978 00000 n
-0000009172 00000 n
-0000009365 00000 n
-0000009559 00000 n
-0000009753 00000 n
-0000009945 00000 n
-0000010139 00000 n
-0000010338 00000 n
-0000010541 00000 n
-0000010734 00000 n
-0000010929 00000 n
-0000011128 00000 n
-0000011327 00000 n
-0000011534 00000 n
-0000011731 00000 n
-0000011934 00000 n
-0000012143 00000 n
-0000012335 00000 n
-0000012527 00000 n
-0000012735 00000 n
-0000012929 00000 n
-0000013108 00000 n
-0000013350 00000 n
-0000013566 00000 n
-0000013807 00000 n
-0000014016 00000 n
-0000014220 00000 n
-0000014458 00000 n
-0000014639 00000 n
-0000014835 00000 n
-0000015045 00000 n
-0000015264 00000 n
-0000015475 00000 n
-0000015699 00000 n
-0000015894 00000 n
-0000016130 00000 n
-0000016357 00000 n
-0000016535 00000 n
-0000016728 00000 n
-0000016922 00000 n
-0000017133 00000 n
-0000017349 00000 n
-0000017545 00000 n
-0000017747 00000 n
-0000017942 00000 n
-0000018144 00000 n
-0000018351 00000 n
-0000018575 00000 n
-0000018767 00000 n
-0000018931 00000 n
-0000019137 00000 n
-0000026315 00000 n
-0000032841 00000 n
-0000043346 00000 n
-0000052516 00000 n
-0000061874 00000 n
-0000071785 00000 n
-0000081149 00000 n
-0000089908 00000 n
-0000100356 00000 n
-0000109077 00000 n
-0000118801 00000 n
-0000125739 00000 n
-0000125991 00000 n
-0000126070 00000 n
-0000126149 00000 n
-0000126228 00000 n
-0000126307 00000 n
-0000126386 00000 n
-0000126465 00000 n
-0000126544 00000 n
-0000126623 00000 n
-0000126702 00000 n
-0000126782 00000 n
-0000126862 00000 n
+0000000075 00000 n
+0000000151 00000 n
+0000000261 00000 n
+0000000376 00000 n
+0000000556 00000 n
+0000000751 00000 n
+0000000950 00000 n
+0000001189 00000 n
+0000001297 00000 n
+0000001506 00000 n
+0000001629 00000 n
+0000001839 00000 n
+0000002049 00000 n
+0000002259 00000 n
+0000002469 00000 n
+0000002679 00000 n
+0000002889 00000 n
+0000003099 00000 n
+0000003218 00000 n
+0000003429 00000 n
+0000003640 00000 n
+0000003870 00000 n
+0000004100 00000 n
+0000004311 00000 n
+0000004421 00000 n
+0000004686 00000 n
+0000004764 00000 n
+0000004920 00000 n
+0000005037 00000 n
+0000005206 00000 n
+0000005318 00000 n
+0000005433 00000 n
+0000005563 00000 n
+0000005726 00000 n
+0000005901 00000 n
+0000006035 00000 n
+0000006169 00000 n
+0000006315 00000 n
+0000006447 00000 n
+0000006580 00000 n
+0000006714 00000 n
+0000006848 00000 n
+0000006980 00000 n
+0000007113 00000 n
+0000007245 00000 n
+0000007376 00000 n
+0000007509 00000 n
+0000007647 00000 n
+0000007789 00000 n
+0000007920 00000 n
+0000008053 00000 n
+0000008191 00000 n
+0000008329 00000 n
+0000008478 00000 n
+0000008613 00000 n
+0000008758 00000 n
+0000008905 00000 n
+0000009036 00000 n
+0000009167 00000 n
+0000009318 00000 n
+0000009450 00000 n
+0000009570 00000 n
+0000009749 00000 n
+0000009913 00000 n
+0000010101 00000 n
+0000010251 00000 n
+0000010400 00000 n
+0000010575 00000 n
+0000010697 00000 n
+0000010832 00000 n
+0000010981 00000 n
+0000011139 00000 n
+0000011291 00000 n
+0000011457 00000 n
+0000011591 00000 n
+0000011776 00000 n
+0000011942 00000 n
+0000012061 00000 n
+0000012193 00000 n
+0000012326 00000 n
+0000012483 00000 n
+0000012645 00000 n
+0000012780 00000 n
+0000012921 00000 n
+0000013055 00000 n
+0000013196 00000 n
+0000013341 00000 n
+0000013503 00000 n
+0000013633 00000 n
+0000013757 00000 n
+0000013908 00000 n
+0000021172 00000 n
+0000027622 00000 n
+0000037512 00000 n
+0000046391 00000 n
+0000055455 00000 n
+0000064798 00000 n
+0000073103 00000 n
+0000082362 00000 n
+0000092694 00000 n
+0000102184 00000 n
+0000110860 00000 n
+0000120417 00000 n
+0000122224 00000 n
+0000122401 00000 n
+0000122439 00000 n
+0000122477 00000 n
+0000122515 00000 n
+0000122553 00000 n
+0000122591 00000 n
+0000122629 00000 n
+0000122667 00000 n
+0000122705 00000 n
+0000122743 00000 n
+0000122782 00000 n
+0000122821 00000 n
+0000122860 00000 n
 trailer
 << /ID 
- % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\32195|\215\345\237\366\211\276\210_\025B\307{) (\32195|\215\345\237\366\211\276\210_\025B\307{)] 
-
- /Info 24 0 R
- /Root 23 0 R
- /Size 115 >>
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(B\364I\311\012\370\274\243\210\307\266UW\266\233\343) (B\364I\311\012\370\274\243\210\307\266UW\266\233\343)]
+ /Info 25 0 R /Root 24 0 R /Size 118 >>
 startxref
-126911
+122899
 %%EOF
