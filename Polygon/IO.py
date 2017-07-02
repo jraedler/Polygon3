@@ -67,25 +67,44 @@ class __RingBuffer:
 
 
 def getWritableObject(ofile):
-    """try to make a writable file-like object from argument"""
+    """try to make a writable file-like object from argument. If the argument is None,
+    construct a new StringIO for writing
+
+    The second return value indicates whether the returned value needs to be closed.
+    Note that if a file-like object was passed in, it is assumed that this object
+    will be closed by the code that created it.
+
+    :Arguments:
+        - ofile: file-like object, string with the filename, or None
+    :Returns:
+        - a file-like object
+        - a bool indicating whether the file should be closed after writing
+    """
     if ofile is None:
         return StringIO(), False
     elif type(ofile) == str:
         return open(ofile, 'w'), True
-    elif type(ofile) in (file, StringIO):
+    elif hasattr(ofile,'write'):
         return ofile, False
     else:
         raise Exception("Can't make a writable object from argument!")
 
 
 def getReadableObject(ifile):
-    """try to make a readable file-like object from argument"""
+    """try to make a readable file-like object from argument
+    
+    :Arguments:
+        - ifile: file-like object or string with the filename
+    :Returns:
+        - a file-like object
+        - a bool indicating whether the file should be closed after reading
+    """
     if type(ifile) == str:
         try:
             return open(ifile, 'r'), True
         except:
             return StringIO(ifile), True
-    elif type(ifile) in (file, StringIO):
+    elif hasattr(ifile,'read'):
         return ifile, False
     else:
         raise Exception("Can't make a readable object from argument!")
