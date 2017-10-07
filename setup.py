@@ -17,7 +17,7 @@ withNumPy=True
 defaultStyle='STYLE_LIST'
 
 # ------ no changes below! If you need to change, it's a bug! -------
-from distutils.core import setup, Extension
+from setuptools import setup, Extension
 from sys import platform
 
 mac = [('DEFAULT_STYLE', defaultStyle)]
