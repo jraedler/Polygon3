@@ -1,3 +1,7 @@
+2021-03-09
+- version 3.0.9
+- collect the small changes made since 3.0.8 (see github for details)
+
 2015-11-05
 - version 3.0.8
 - fix for isInside()

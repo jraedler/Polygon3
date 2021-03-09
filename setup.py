@@ -66,7 +66,7 @@ wish to use this software in commercial projects!
 
 args = { 
     'name'            : "Polygon3",
-    'version'         : "3.0.8",
+    'version'         : "3.0.9",
     'description'     : "Polygon3 is a Python-3 package that handles polygonal shapes in 2D",
     'long_description': longdesc,
     'license'         : "LGPL for Polygon, other for gpc",
