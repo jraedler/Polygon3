@@ -132,7 +132,7 @@ Operations on Polygon Objects
 
 :p & q:
     intersection: a polygon with the area that is covered by both p and q
-:p \| q:
+:p | q:
     union: a polygon containing the area that is covered by p or q or both
 :p - q:
     difference: a polygon with the area of p that is not covered by q
